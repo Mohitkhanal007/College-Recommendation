@@ -1,0 +1,4342 @@
+[
+  {
+    "id": 1,
+    "name": "Pulchowk Campus (IOE)",
+    "location": "Lalitpur",
+    "programs": [
+      "Aerospace Engineering",
+      "Chemical Engineering",
+      "Computer Engineering",
+      "Civil Engineering",
+      "Mechanical Engineering",
+      "Electrical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Pulchowk Campus (IOE) is a well-known Government institution located in Lalitpur.",
+    "website": "https://example.com/college1",
+    "contact": "+977-1-4264390",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1994,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 2,
+    "name": "Thapathali Campus (IOE)",
+    "location": "Kathmandu",
+    "programs": [
+      "Industrial Engineering",
+      "Automobile Engineering",
+      "Computer Engineering",
+      "Civil Engineering",
+      "Mechanical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Thapathali Campus (IOE) is a well-known Government institution located in Kathmandu.",
+    "website": "https://example.com/college2",
+    "contact": "+977-1-4930427",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1961,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 3,
+    "name": "National College of Engineering (NCE)",
+    "location": "Lalitpur",
+    "programs": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Electrical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "medium",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "National College of Engineering (NCE) is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college3",
+    "contact": "+977-1-4507628",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1963,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 4,
+    "name": "Nepal College of Information Technology (NCIT)",
+    "location": "Lalitpur",
+    "programs": [
+      "Software Engineering",
+      "IT Engineering",
+      "Computer Engineering",
+      "Civil Engineering",
+      "BBA",
+      "BCA"
+    ],
+    "streams": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Nepal College of Information Technology (NCIT) is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college4",
+    "contact": "+977-1-4861964",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2009,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 5,
+    "name": "Khwopa Engineering College",
+    "location": "Bhaktapur",
+    "programs": [
+      "Architecture",
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electrical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Khwopa Engineering College is a well-known Community institution located in Bhaktapur.",
+    "website": "https://example.com/college5",
+    "contact": "+977-1-4308986",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1987,
+    "type": "Community",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 6,
+    "name": "Himalaya College of Engineering",
+    "location": "Lalitpur",
+    "programs": [
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Civil Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "high",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Himalaya College of Engineering is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college6",
+    "contact": "+977-1-4352776",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1986,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 7,
+    "name": "Kantipur Engineering College",
+    "location": "Lalitpur",
+    "programs": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.3,
+    "budget_range": "medium",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Kantipur Engineering College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college7",
+    "contact": "+977-1-4982761",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1986,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 8,
+    "name": "Kathmandu Engineering College",
+    "location": "Kathmandu",
+    "programs": [
+      "Architecture",
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Electrical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Kathmandu Engineering College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college8",
+    "contact": "+977-1-4795143",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1993,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 9,
+    "name": "Janakpur Engineering College",
+    "location": "Lalitpur",
+    "programs": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.1,
+    "budget_range": "high",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Janakpur Engineering College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college9",
+    "contact": "+977-1-4224947",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1965,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 10,
+    "name": "Gandaki College of Engineering and Science",
+    "location": "Pokhara",
+    "programs": [
+      "Software Engineering",
+      "Computer Engineering",
+      "Information Technology"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Gandaki College of Engineering and Science is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college10",
+    "contact": "+977-1-4028958",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1962,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 11,
+    "name": "Nepal Engineering College",
+    "location": "Bhaktapur",
+    "programs": [
+      "Architecture",
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Electrical Engineering",
+      "Civil and Rural Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Nepal Engineering College is a well-known Private institution located in Bhaktapur.",
+    "website": "https://example.com/college11",
+    "contact": "+977-1-4616521",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1964,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 12,
+    "name": "Pashchimanchal Campus (IOE)",
+    "location": "Pokhara",
+    "programs": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Electrical Engineering",
+      "Geomatics Engineering",
+      "Mechanical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.6,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Pashchimanchal Campus (IOE) is a well-known Government institution located in Pokhara.",
+    "website": "https://example.com/college12",
+    "contact": "+977-1-4858716",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1985,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 13,
+    "name": "Purwanchal Campus (IOE)",
+    "location": "Dharan",
+    "programs": [
+      "Agricultural Engineering",
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Mechanical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Purwanchal Campus (IOE) is a well-known Government institution located in Dharan.",
+    "website": "https://example.com/college13",
+    "contact": "+977-1-4871185",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1973,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 14,
+    "name": "Lalitpur Engineering College",
+    "location": "Lalitpur",
+    "programs": [
+      "Civil Engineering",
+      "Computer Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.3,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Lalitpur Engineering College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college14",
+    "contact": "+977-1-4658860",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2005,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 15,
+    "name": "Madan Bhandari Memorial Academy Nepal",
+    "location": "Morang",
+    "programs": [
+      "Computer Engineering",
+      "Civil Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Madan Bhandari Memorial Academy Nepal is a well-known Community institution located in Morang.",
+    "website": "https://example.com/college15",
+    "contact": "+977-1-4574242",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1981,
+    "type": "Community",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 16,
+    "name": "Sagarmatha Engineering College",
+    "location": "Lalitpur",
+    "programs": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.0,
+    "budget_range": "medium",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Sagarmatha Engineering College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college16",
+    "contact": "+977-1-4174130",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1960,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 17,
+    "name": "Cosmos College of Management and Technology",
+    "location": "Lalitpur",
+    "programs": [
+      "BBA",
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "IT"
+    ],
+    "streams": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "medium",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Cosmos College of Management and Technology is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college17",
+    "contact": "+977-1-4416140",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1984,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 18,
+    "name": "Ritz College of Engineering and Management",
+    "location": "Lalitpur",
+    "programs": [
+      "Civil Engineering",
+      "Hotel Management",
+      "BBA"
+    ],
+    "streams": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "high",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Ritz College of Engineering and Management is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college18",
+    "contact": "+977-1-4048993",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1988,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 19,
+    "name": "Kathmandu Model College (KMC)",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "BBS",
+      "BCA",
+      "BA Social Work",
+      "MA English"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Kathmandu Model College (KMC) is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college19",
+    "contact": "+977-1-4373089",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1986,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 20,
+    "name": "DAV College",
+    "location": "Lalitpur",
+    "programs": [
+      "BBA",
+      "BBS",
+      "BBM",
+      "BSc Physics",
+      "BSc Microbiology"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "DAV College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college20",
+    "contact": "+977-1-4365005",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1995,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 21,
+    "name": "Padmashree College",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "BHM",
+      "BIT",
+      "BTech Food"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Padmashree College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college21",
+    "contact": "+977-1-4252308",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1980,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 22,
+    "name": "Campion College",
+    "location": "Lalitpur",
+    "programs": [
+      "BBA",
+      "BBS",
+      "BA",
+      "BA Social Work"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Campion College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college22",
+    "contact": "+977-1-4098980",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1974,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 23,
+    "name": "Thames College",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "BIM",
+      "BCA",
+      "BA Social Work",
+      "BBM"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Thames College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college23",
+    "contact": "+977-1-4046725",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1972,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 24,
+    "name": "Kathford International College",
+    "location": "Lalitpur",
+    "programs": [
+      "BBA",
+      "BBM",
+      "Computer Engineering",
+      "Civil Engineering"
+    ],
+    "streams": [
+      "Science",
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "high",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Kathford International College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college24",
+    "contact": "+977-1-4839571",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1962,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 25,
+    "name": "Kantipur College of Management and IT",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "BIM"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Kantipur College of Management and IT is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college25",
+    "contact": "+977-1-4634586",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2004,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 26,
+    "name": "Ace Institute of Management",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "MBA",
+      "BBA-BI"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Ace Institute of Management is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college26",
+    "contact": "+977-1-4127688",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2007,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 27,
+    "name": "Uniglobe College",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "MBA",
+      "BBA-BI"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Uniglobe College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college27",
+    "contact": "+977-1-4720775",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1989,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 28,
+    "name": "Quest International College",
+    "location": "Lalitpur",
+    "programs": [
+      "BBA",
+      "BHM",
+      "MBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Quest International College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college28",
+    "contact": "+977-1-4926571",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2010,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 29,
+    "name": "Liberty College",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.1,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Liberty College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college29",
+    "contact": "+977-1-4249830",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2009,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 30,
+    "name": "South Asian Institute of Management (SAIM)",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "MBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "South Asian Institute of Management (SAIM) is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college30",
+    "contact": "+977-1-4704060",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2002,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 31,
+    "name": "Kantipur Valley College",
+    "location": "Lalitpur",
+    "programs": [
+      "BBA",
+      "MBA",
+      "BTech",
+      "EMBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Kantipur Valley College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college31",
+    "contact": "+977-1-4780410",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1989,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 32,
+    "name": "Himalayan Whitehouse International College",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "BTech",
+      "Liberal Arts",
+      "BE Civil"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Himalayan Whitehouse International College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college32",
+    "contact": "+977-1-4071873",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2000,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 33,
+    "name": "Shankar Dev Campus",
+    "location": "Kathmandu",
+    "programs": [
+      "BBS",
+      "BBA",
+      "BIM",
+      "BBM",
+      "MBS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Shankar Dev Campus is a well-known Government institution located in Kathmandu.",
+    "website": "https://example.com/college33",
+    "contact": "+977-1-4221498",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2004,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 34,
+    "name": "Nepal Commerce Campus",
+    "location": "Kathmandu",
+    "programs": [
+      "BBS",
+      "BBA",
+      "BBM",
+      "BIM",
+      "MBS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Nepal Commerce Campus is a well-known Government institution located in Kathmandu.",
+    "website": "https://example.com/college34",
+    "contact": "+977-1-4515262",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1974,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 35,
+    "name": "Padma Kanya Multiple Campus",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "BBS",
+      "BCA",
+      "BA",
+      "BIT",
+      "MA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Padma Kanya Multiple Campus is a well-known Government institution located in Kathmandu.",
+    "website": "https://example.com/college35",
+    "contact": "+977-1-4756453",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1977,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 36,
+    "name": "Gandaki College of Engineering and Science",
+    "location": "Pokhara",
+    "programs": [
+      "Software Engineering",
+      "Computer Engineering",
+      "Information Technology",
+      "BSc CSIT"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.1,
+    "budget_range": "high",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Gandaki College of Engineering and Science is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college36",
+    "contact": "+977-1-4949790",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1960,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 37,
+    "name": "Pokhara Engineering College",
+    "location": "Pokhara",
+    "programs": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Architecture"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "medium",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Pokhara Engineering College is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college37",
+    "contact": "+977-1-4190361",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2003,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 38,
+    "name": "Prithvi Narayan Campus",
+    "location": "Pokhara",
+    "programs": [
+      "BSc CSIT",
+      "BSc Physics",
+      "BSc Chemistry",
+      "BBS",
+      "BA",
+      "BEd",
+      "LLB",
+      "MSc",
+      "BPA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Prithvi Narayan Campus is a well-known Government institution located in Pokhara.",
+    "website": "https://example.com/college38",
+    "contact": "+977-1-4865446",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1978,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 39,
+    "name": "LA Grandee International College",
+    "location": "Pokhara",
+    "programs": [
+      "BCA",
+      "BBA",
+      "BPH"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "LA Grandee International College is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college39",
+    "contact": "+977-1-4204835",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1999,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 40,
+    "name": "Informatics College Pokhara",
+    "location": "Pokhara",
+    "programs": [
+      "BSc IT",
+      "BBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Informatics College Pokhara is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college40",
+    "contact": "+977-1-4447309",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1962,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 41,
+    "name": "Pokhara College of Management",
+    "location": "Pokhara",
+    "programs": [
+      "BBA",
+      "BCIS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Pokhara College of Management is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college41",
+    "contact": "+977-1-4448592",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2002,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 42,
+    "name": "Janapriya Multiple Campus",
+    "location": "Pokhara",
+    "programs": [
+      "BSc Microbiology",
+      "BSc Environmental Science",
+      "BBA",
+      "BBS",
+      "MBS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Janapriya Multiple Campus is a well-known Community institution located in Pokhara.",
+    "website": "https://example.com/college42",
+    "contact": "+977-1-4286901",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1983,
+    "type": "Community",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 43,
+    "name": "Mount Annapurna Campus",
+    "location": "Pokhara",
+    "programs": [
+      "BSc CSIT",
+      "BSc"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "high",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Mount Annapurna Campus is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college43",
+    "contact": "+977-1-4365948",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2006,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 44,
+    "name": "Soch College of IT",
+    "location": "Pokhara",
+    "programs": [
+      "BSc CSIT",
+      "BCA"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Soch College of IT is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college44",
+    "contact": "+977-1-4435069",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1995,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 45,
+    "name": "Mahendra Morang Adarsha Multiple Campus",
+    "location": "Biratnagar",
+    "programs": [
+      "BSc",
+      "BBS",
+      "BA",
+      "BEd",
+      "BPA",
+      "BIT",
+      "BSc CSIT"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Mahendra Morang Adarsha Multiple Campus is a well-known Government institution located in Biratnagar.",
+    "website": "https://example.com/college45",
+    "contact": "+977-1-4022551",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1963,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 46,
+    "name": "Purbanchal University School of Management (PUSOM)",
+    "location": "Biratnagar",
+    "programs": [
+      "BBA",
+      "MBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Purbanchal University School of Management (PUSOM) is a well-known Government institution located in Biratnagar.",
+    "website": "https://example.com/college46",
+    "contact": "+977-1-4477244",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1980,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 47,
+    "name": "Eastern College of Engineering",
+    "location": "Biratnagar",
+    "programs": [
+      "Computer Engineering",
+      "Civil Engineering",
+      "Electronics Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.6,
+    "budget_range": "high",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Eastern College of Engineering is a well-known Private institution located in Biratnagar.",
+    "website": "https://example.com/college47",
+    "contact": "+977-1-4116396",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2010,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 48,
+    "name": "Birat Multiple College",
+    "location": "Biratnagar",
+    "programs": [
+      "BSc CSIT",
+      "BCA"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "medium",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Birat Multiple College is a well-known Private institution located in Biratnagar.",
+    "website": "https://example.com/college48",
+    "contact": "+977-1-4759299",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1973,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 49,
+    "name": "AIMS College",
+    "location": "Biratnagar",
+    "programs": [
+      "BSc CSIT",
+      "BCA",
+      "BBS"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "AIMS College is a well-known Private institution located in Biratnagar.",
+    "website": "https://example.com/college49",
+    "contact": "+977-1-4127909",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1963,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 50,
+    "name": "Nihareeka College",
+    "location": "Biratnagar",
+    "programs": [
+      "BSc CSIT",
+      "BCA",
+      "BBS",
+      "BIM"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Nihareeka College is a well-known Private institution located in Biratnagar.",
+    "website": "https://example.com/college50",
+    "contact": "+977-1-4288942",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1970,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 51,
+    "name": "Birat Kshitiz College",
+    "location": "Biratnagar",
+    "programs": [
+      "BSc CSIT",
+      "BCA",
+      "BBM"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Birat Kshitiz College is a well-known Private institution located in Biratnagar.",
+    "website": "https://example.com/college51",
+    "contact": "+977-1-4589508",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2006,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 52,
+    "name": "Purbanchal University School of Engineering",
+    "location": "Biratnagar",
+    "programs": [
+      "Software Engineering",
+      "Computer Engineering",
+      "Civil Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Purbanchal University School of Engineering is a well-known Government institution located in Biratnagar.",
+    "website": "https://example.com/college52",
+    "contact": "+977-1-4167902",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2008,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 53,
+    "name": "Birendra Multiple Campus",
+    "location": "Chitwan",
+    "programs": [
+      "BSc",
+      "BBS",
+      "BA",
+      "BEd",
+      "MSc Physics",
+      "CSIT",
+      "BSc CSIT"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Birendra Multiple Campus is a well-known Government institution located in Chitwan.",
+    "website": "https://example.com/college53",
+    "contact": "+977-1-4567131",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1985,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 54,
+    "name": "Valley State College",
+    "location": "Chitwan",
+    "programs": [
+      "BBA",
+      "BSc Nursing",
+      "BPH"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.1,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Valley State College is a well-known Private institution located in Chitwan.",
+    "website": "https://example.com/college54",
+    "contact": "+977-1-4968875",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2000,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 55,
+    "name": "United Technical College (U-TEC)",
+    "location": "Chitwan",
+    "programs": [
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electrical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "United Technical College (U-TEC) is a well-known Private institution located in Chitwan.",
+    "website": "https://example.com/college55",
+    "contact": "+977-1-4138016",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1979,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 56,
+    "name": "Nepal Polytechnic Institute",
+    "location": "Chitwan",
+    "programs": [
+      "Civil Engineering",
+      "Electrical Engineering",
+      "BSc Agriculture"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "medium",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Nepal Polytechnic Institute is a well-known Private institution located in Chitwan.",
+    "website": "https://example.com/college56",
+    "contact": "+977-1-4674886",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1967,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 57,
+    "name": "Chitwan Engineering Campus",
+    "location": "Chitwan",
+    "programs": [
+      "Architecture",
+      "Civil Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Chitwan Engineering Campus is a well-known Government institution located in Chitwan.",
+    "website": "https://example.com/college57",
+    "contact": "+977-1-4522977",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1970,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 58,
+    "name": "Boston International College",
+    "location": "Chitwan",
+    "programs": [
+      "BBA",
+      "BBA-BI",
+      "BCIS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Boston International College is a well-known Private institution located in Chitwan.",
+    "website": "https://example.com/college58",
+    "contact": "+977-1-4130534",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2000,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 59,
+    "name": "Indreni College",
+    "location": "Chitwan",
+    "programs": [
+      "BSc CSIT",
+      "BCA"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.3,
+    "budget_range": "high",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Indreni College is a well-known Private institution located in Chitwan.",
+    "website": "https://example.com/college59",
+    "contact": "+977-1-4845744",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1990,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 60,
+    "name": "Butwal Model College",
+    "location": "Butwal",
+    "programs": [
+      "BBA",
+      "BBA-BI"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Butwal Model College is a well-known Private institution located in Butwal.",
+    "website": "https://example.com/college60",
+    "contact": "+977-1-4554671",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1976,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 61,
+    "name": "Lumbini Banijya Campus",
+    "location": "Butwal",
+    "programs": [
+      "BBS",
+      "BBM",
+      "BBA",
+      "MBA-BF"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Lumbini Banijya Campus is a well-known Community institution located in Butwal.",
+    "website": "https://example.com/college61",
+    "contact": "+977-1-4330293",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1992,
+    "type": "Community",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 62,
+    "name": "Crimson College of Technology",
+    "location": "Butwal",
+    "programs": [
+      "BBA",
+      "BCA",
+      "BCIS",
+      "B Pharmacy"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Crimson College of Technology is a well-known Private institution located in Butwal.",
+    "website": "https://example.com/college62",
+    "contact": "+977-1-4652791",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1987,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 63,
+    "name": "Butwal Multiple Campus",
+    "location": "Butwal",
+    "programs": [
+      "BSc CSIT",
+      "BEd",
+      "BBS",
+      "BA",
+      "BICTE"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Butwal Multiple Campus is a well-known Government institution located in Butwal.",
+    "website": "https://example.com/college63",
+    "contact": "+977-1-4695192",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1996,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 64,
+    "name": "Siddhartha International College",
+    "location": "Butwal",
+    "programs": [
+      "BBA",
+      "BBA-BI"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.1,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Siddhartha International College is a well-known Private institution located in Butwal.",
+    "website": "https://example.com/college64",
+    "contact": "+977-1-4823090",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1971,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 65,
+    "name": "Nepathya College",
+    "location": "Butwal",
+    "programs": [
+      "BSc CSIT",
+      "BCA"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "medium",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Nepathya College is a well-known Private institution located in Butwal.",
+    "website": "https://example.com/college65",
+    "contact": "+977-1-4605887",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1991,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 66,
+    "name": "Tilottama Campus",
+    "location": "Butwal",
+    "programs": [
+      "BBA",
+      "BSc",
+      "BBS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Tilottama Campus is a well-known Private institution located in Butwal.",
+    "website": "https://example.com/college66",
+    "contact": "+977-1-4137218",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1985,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 67,
+    "name": "Purwanchal Campus (IOE)",
+    "location": "Dharan",
+    "programs": [
+      "Agricultural Engineering",
+      "Civil Engineering",
+      "Computer Engineering",
+      "Electronics Engineering",
+      "Mechanical Engineering"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Engineering",
+      "Industry"
+    ],
+    "interests": [
+      "Engineering",
+      "Learning"
+    ],
+    "description": "Purwanchal Campus (IOE) is a well-known Government institution located in Dharan.",
+    "website": "https://example.com/college67",
+    "contact": "+977-1-4475340",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1969,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 68,
+    "name": "B.P. Koirala Institute of Health Sciences",
+    "location": "Dharan",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BDS",
+      "BPH"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "B.P. Koirala Institute of Health Sciences is a well-known Government institution located in Dharan.",
+    "website": "https://example.com/college68",
+    "contact": "+977-1-4166677",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1967,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 69,
+    "name": "Sunsari Multiple Campus",
+    "location": "Dharan",
+    "programs": [
+      "BSc",
+      "BBS",
+      "BA",
+      "BEd"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Sunsari Multiple Campus is a well-known Community institution located in Dharan.",
+    "website": "https://example.com/college69",
+    "contact": "+977-1-4514152",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1977,
+    "type": "Community",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 70,
+    "name": "Itahari Namuna College",
+    "location": "Itahari",
+    "programs": [
+      "BCA",
+      "BBS",
+      "BA",
+      "BSW",
+      "BHM"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Itahari Namuna College is a well-known Private institution located in Itahari.",
+    "website": "https://example.com/college70",
+    "contact": "+977-1-4543591",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1976,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 71,
+    "name": "Kasturi College",
+    "location": "Itahari",
+    "programs": [
+      "BBA",
+      "BBS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Kasturi College is a well-known Private institution located in Itahari.",
+    "website": "https://example.com/college71",
+    "contact": "+977-1-4428293",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1990,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 72,
+    "name": "Sushma Godawari College",
+    "location": "Itahari",
+    "programs": [
+      "BSc CSIT",
+      "BBS",
+      "BBA",
+      "BCA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Sushma Godawari College is a well-known Private institution located in Itahari.",
+    "website": "https://example.com/college72",
+    "contact": "+977-1-4549550",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1982,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 73,
+    "name": "Dharan College of Management",
+    "location": "Dharan",
+    "programs": [
+      "BBA",
+      "MBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Dharan College of Management is a well-known Private institution located in Dharan.",
+    "website": "https://example.com/college73",
+    "contact": "+977-1-4176591",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1973,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 74,
+    "name": "Nepalgunj Medical College",
+    "location": "Nepalgunj",
+    "programs": [
+      "MBBS",
+      "BSc Nursing"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Nepalgunj Medical College is a well-known Private institution located in Nepalgunj.",
+    "website": "https://example.com/college74",
+    "contact": "+977-1-4350458",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1976,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 75,
+    "name": "Nepalgunj College",
+    "location": "Nepalgunj",
+    "programs": [
+      "BSc CSIT",
+      "BCA",
+      "BBS"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.3,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Nepalgunj College is a well-known Private institution located in Nepalgunj.",
+    "website": "https://example.com/college75",
+    "contact": "+977-1-4939562",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1991,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 76,
+    "name": "Brightland College",
+    "location": "Nepalgunj",
+    "programs": [
+      "BIM",
+      "BBS"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.3,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Brightland College is a well-known Private institution located in Nepalgunj.",
+    "website": "https://example.com/college76",
+    "contact": "+977-1-4414743",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1980,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 77,
+    "name": "Kailali Multiple Campus",
+    "location": "Dhangadhi",
+    "programs": [
+      "BBS",
+      "BA",
+      "BEd",
+      "BSc"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Kailali Multiple Campus is a well-known Community institution located in Dhangadhi.",
+    "website": "https://example.com/college77",
+    "contact": "+977-1-4183182",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1983,
+    "type": "Community",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 78,
+    "name": "Asian Byabasthapan College",
+    "location": "Dhangadhi",
+    "programs": [
+      "BBS",
+      "BHCM",
+      "BIM"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Asian Byabasthapan College is a well-known Private institution located in Dhangadhi.",
+    "website": "https://example.com/college78",
+    "contact": "+977-1-4570822",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2006,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 79,
+    "name": "Sudur Paschimanchal Campus",
+    "location": "Dhangadhi",
+    "programs": [
+      "BBA",
+      "BEd",
+      "BSc"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Sudur Paschimanchal Campus is a well-known Private institution located in Dhangadhi.",
+    "website": "https://example.com/college79",
+    "contact": "+977-1-4246617",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1980,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 80,
+    "name": "Hetauda School of Management",
+    "location": "Hetauda",
+    "programs": [
+      "BIM",
+      "BBA",
+      "BBS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Hetauda School of Management is a well-known Private institution located in Hetauda.",
+    "website": "https://example.com/college80",
+    "contact": "+977-1-4174404",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1989,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 81,
+    "name": "Janapriya Multiple Campus",
+    "location": "Hetauda",
+    "programs": [
+      "BBS",
+      "BEd",
+      "BA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.0,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Janapriya Multiple Campus is a well-known Community institution located in Hetauda.",
+    "website": "https://example.com/college81",
+    "contact": "+977-1-4389666",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2003,
+    "type": "Community",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 82,
+    "name": "Makwanpur Multiple Campus",
+    "location": "Hetauda",
+    "programs": [
+      "BBS",
+      "BA",
+      "BEd"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Makwanpur Multiple Campus is a well-known Community institution located in Hetauda.",
+    "website": "https://example.com/college82",
+    "contact": "+977-1-4452017",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2006,
+    "type": "Community",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 83,
+    "name": "Herald College",
+    "location": "Kathmandu",
+    "programs": [
+      "BIT",
+      "BSc Computer Science",
+      "International Business"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "low",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Herald College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college83",
+    "contact": "+977-1-4322250",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1997,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 84,
+    "name": "The British College",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "BHM",
+      "BSc Computing",
+      "BIT",
+      "MBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "The British College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college84",
+    "contact": "+977-1-4773337",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1974,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 85,
+    "name": "Islington College",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc Computing",
+      "BSc Networking",
+      "BIT",
+      "BBA",
+      "BHM"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Islington College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college85",
+    "contact": "+977-1-4423125",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1975,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 86,
+    "name": "Softwarica College of IT and E-Commerce",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc Computing",
+      "BIT",
+      "Ethical Hacking"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "high",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Softwarica College of IT and E-Commerce is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college86",
+    "contact": "+977-1-4281550",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2008,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 87,
+    "name": "International School of Management and Technology (ISMT)",
+    "location": "Kathmandu",
+    "programs": [
+      "BBA",
+      "BHM",
+      "BIT"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "International School of Management and Technology (ISMT) is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college87",
+    "contact": "+977-1-4419169",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1997,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 88,
+    "name": "Deerwalk Institute of Technology",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc CSIT",
+      "BCA"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.0,
+    "budget_range": "medium",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Deerwalk Institute of Technology is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college88",
+    "contact": "+977-1-4004895",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1987,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 89,
+    "name": "Texas International College",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc CSIT",
+      "BCA",
+      "BBS",
+      "BBA"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.1,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Texas International College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college89",
+    "contact": "+977-1-4725522",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2005,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 90,
+    "name": "Orchid International College",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc CSIT",
+      "BIM",
+      "BCA",
+      "BBM",
+      "BSW"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.0,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Orchid International College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college90",
+    "contact": "+977-1-4768941",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1976,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 91,
+    "name": "Samriddhi College",
+    "location": "Bhaktapur",
+    "programs": [
+      "BSc CSIT",
+      "BCA",
+      "BBS",
+      "BA Social Work"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Samriddhi College is a well-known Private institution located in Bhaktapur.",
+    "website": "https://example.com/college91",
+    "contact": "+977-1-4762747",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1971,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 92,
+    "name": "Nagarjuna College of Information Technology",
+    "location": "Lalitpur",
+    "programs": [
+      "BSc CSIT",
+      "BCA",
+      "BIM"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Nagarjuna College of Information Technology is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college92",
+    "contact": "+977-1-4928652",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2000,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 93,
+    "name": "Swastik College",
+    "location": "Bhaktapur",
+    "programs": [
+      "BSc CSIT",
+      "BCA"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "medium",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Swastik College is a well-known Private institution located in Bhaktapur.",
+    "website": "https://example.com/college93",
+    "contact": "+977-1-4536281",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2010,
+    "type": "Private",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 94,
+    "name": "Amrit Science Campus",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc CSIT",
+      "BSc Physics",
+      "BSc Chemistry",
+      "BSc Microbiology",
+      "BSc Botany",
+      "BSc Zoology"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 3.1,
+    "budget_range": "low",
+    "career_focus": [
+      "IT",
+      "Industry"
+    ],
+    "interests": [
+      "IT",
+      "Learning"
+    ],
+    "description": "Amrit Science Campus is a well-known Government institution located in Kathmandu.",
+    "website": "https://example.com/college94",
+    "contact": "+977-1-4589099",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1974,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 95,
+    "name": "Patan Multiple Campus",
+    "location": "Lalitpur",
+    "programs": [
+      "BSc CSIT",
+      "BCA",
+      "BBS",
+      "BA",
+      "BSc"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.6,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Patan Multiple Campus is a well-known Government institution located in Lalitpur.",
+    "website": "https://example.com/college95",
+    "contact": "+977-1-4181949",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1973,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 96,
+    "name": "St. Xavier's College",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc CSIT",
+      "BSc Physics",
+      "BSc Microbiology",
+      "BA Social Work",
+      "BBS"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "St. Xavier's College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college96",
+    "contact": "+977-1-4887526",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1966,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 97,
+    "name": "Kathmandu University School of Medical Sciences",
+    "location": "Dhulikhel",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BDS",
+      "BPT"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.7,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Kathmandu University School of Medical Sciences is a well-known Private institution located in Dhulikhel.",
+    "website": "https://example.com/college97",
+    "contact": "+977-1-4906750",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 2004,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 98,
+    "name": "Chitwan Medical College",
+    "location": "Chitwan",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BDS",
+      "BPH"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Chitwan Medical College is a well-known Private institution located in Chitwan.",
+    "website": "https://example.com/college98",
+    "contact": "+977-1-4383748",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1995,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 99,
+    "name": "College of Medical Science",
+    "location": "Chitwan",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BDS"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "College of Medical Science is a well-known Private institution located in Chitwan.",
+    "website": "https://example.com/college99",
+    "contact": "+977-1-4760253",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1967,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 100,
+    "name": "Nepalgunj Medical College",
+    "location": "Nepalgunj",
+    "programs": [
+      "MBBS",
+      "BSc Nursing"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Nepalgunj Medical College is a well-known Private institution located in Nepalgunj.",
+    "website": "https://example.com/college100",
+    "contact": "+977-1-4301728",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1960,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 101,
+    "name": "Universal College of Medical Sciences",
+    "location": "Bhairahawa",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BDS"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Universal College of Medical Sciences is a well-known Private institution located in Bhairahawa.",
+    "website": "https://example.com/college101",
+    "contact": "+977-1-4318793",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1999,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 102,
+    "name": "Kathmandu Medical College",
+    "location": "Kathmandu",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BDS"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Kathmandu Medical College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college102",
+    "contact": "+977-1-4173851",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1982,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 103,
+    "name": "Lumbini Medical College",
+    "location": "Palpa",
+    "programs": [
+      "MBBS",
+      "BSc Nursing"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.0,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Lumbini Medical College is a well-known Private institution located in Palpa.",
+    "website": "https://example.com/college103",
+    "contact": "+977-1-4729226",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2004,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 104,
+    "name": "Pokhara Nursing Campus",
+    "location": "Pokhara",
+    "programs": [
+      "BSc Nursing",
+      "BNS"
+    ],
+    "streams": [
+      "Science"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Science",
+      "Industry"
+    ],
+    "interests": [
+      "Science",
+      "Learning"
+    ],
+    "description": "Pokhara Nursing Campus is a well-known Government institution located in Pokhara.",
+    "website": "https://example.com/college104",
+    "contact": "+977-1-4722624",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1982,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 105,
+    "name": "Maharajgunj Medical Campus",
+    "location": "Kathmandu",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BPH",
+      "BMLT",
+      "B.Optom"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Maharajgunj Medical Campus is a well-known Government institution located in Kathmandu.",
+    "website": "https://example.com/college105",
+    "contact": "+977-1-4392084",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1995,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 106,
+    "name": "B.P. Koirala Institute of Health Sciences",
+    "location": "Dharan",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BDS",
+      "BPH"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "B.P. Koirala Institute of Health Sciences is a well-known Government institution located in Dharan.",
+    "website": "https://example.com/college106",
+    "contact": "+977-1-4515925",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi"
+    ],
+    "established": 1999,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 107,
+    "name": "Manipal College of Medical Sciences",
+    "location": "Pokhara",
+    "programs": [
+      "MBBS",
+      "BSc Nursing",
+      "BDS"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.1,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Manipal College of Medical Sciences is a well-known Private institution located in Pokhara.",
+    "website": "https://example.com/college107",
+    "contact": "+977-1-4508436",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1979,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 108,
+    "name": "Nobel Medical College",
+    "location": "Biratnagar",
+    "programs": [
+      "MBBS",
+      "BDS",
+      "BSc Nursing"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Nobel Medical College is a well-known Private institution located in Biratnagar.",
+    "website": "https://example.com/college108",
+    "contact": "+977-1-4443665",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1996,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 109,
+    "name": "Kist Medical College",
+    "location": "Lalitpur",
+    "programs": [
+      "MBBS",
+      "BDS"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.5,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Kist Medical College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college109",
+    "contact": "+977-1-4557036",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1984,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 110,
+    "name": "Birat Medical College",
+    "location": "Biratnagar",
+    "programs": [
+      "MBBS",
+      "BSc Nursing"
+    ],
+    "streams": [
+      "Management"
+    ],
+    "min_gpa": 2.9,
+    "budget_range": "medium",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Birat Medical College is a well-known Private institution located in Biratnagar.",
+    "website": "https://example.com/college110",
+    "contact": "+977-1-4067713",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1982,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 111,
+    "name": "Tri-Chandra Multiple Campus",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc Physics",
+      "BSc Chemistry",
+      "BSc Geology",
+      "BA Psychology",
+      "BA Social Work"
+    ],
+    "streams": [
+      "Science",
+      "Humanities"
+    ],
+    "min_gpa": 3.2,
+    "budget_range": "low",
+    "career_focus": [
+      "Science",
+      "Industry"
+    ],
+    "interests": [
+      "Science",
+      "Learning"
+    ],
+    "description": "Tri-Chandra Multiple Campus is a well-known Government institution located in Kathmandu.",
+    "website": "https://example.com/college111",
+    "contact": "+977-1-4026755",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 2009,
+    "type": "Government",
+    "admission_process": "Entrance Exam",
+    "scholarship_available": true
+  },
+  {
+    "id": 112,
+    "name": "Ratna Rajya Laxmi Campus",
+    "location": "Kathmandu",
+    "programs": [
+      "BA English",
+      "BA Journalism",
+      "BA Economics",
+      "BA Political Science"
+    ],
+    "streams": [
+      "Humanities"
+    ],
+    "min_gpa": 2.8,
+    "budget_range": "low",
+    "career_focus": [
+      "Humanities",
+      "Industry"
+    ],
+    "interests": [
+      "Humanities",
+      "Learning"
+    ],
+    "description": "Ratna Rajya Laxmi Campus is a well-known Government institution located in Kathmandu.",
+    "website": "https://example.com/college112",
+    "contact": "+977-1-4899507",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1969,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 113,
+    "name": "Bhaktapur Multiple Campus",
+    "location": "Bhaktapur",
+    "programs": [
+      "BBS",
+      "BA",
+      "BSc"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 3.1,
+    "budget_range": "low",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Bhaktapur Multiple Campus is a well-known Government institution located in Bhaktapur.",
+    "website": "https://example.com/college113",
+    "contact": "+977-1-4663598",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1966,
+    "type": "Government",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 114,
+    "name": "Aberdeen International College",
+    "location": "Lalitpur",
+    "programs": [
+      "BBA",
+      "BHM"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.4,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "Aberdeen International College is a well-known Private institution located in Lalitpur.",
+    "website": "https://example.com/college114",
+    "contact": "+977-1-4889682",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1976,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  },
+  {
+    "id": 115,
+    "name": "GoldenGate International College",
+    "location": "Kathmandu",
+    "programs": [
+      "BSc",
+      "BBA",
+      "BBS",
+      "BA",
+      "BSW"
+    ],
+    "streams": [
+      "Management",
+      "Humanities"
+    ],
+    "min_gpa": 2.2,
+    "budget_range": "high",
+    "career_focus": [
+      "Management",
+      "Industry"
+    ],
+    "interests": [
+      "Management",
+      "Learning"
+    ],
+    "description": "GoldenGate International College is a well-known Private institution located in Kathmandu.",
+    "website": "https://example.com/college115",
+    "contact": "+977-1-4429080",
+    "facilities": [
+      "Library",
+      "Computer Lab",
+      "Cafeteria",
+      "WiFi",
+      "Hostel"
+    ],
+    "established": 1993,
+    "type": "Private",
+    "admission_process": "Merit-based",
+    "scholarship_available": true
+  }
+]
