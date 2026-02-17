@@ -3,8 +3,6 @@
 import json
 import math
 from typing import List, Dict, Tuple
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 
 class CollegeRecommender:
     def __init__(self, colleges_file: str):
@@ -157,14 +155,18 @@ class CollegeRecommender:
         return vector
     
     def _weighted_cosine_similarity(self, vec1: List[float], vec2: List[float], weights: List[float]) -> float:
-        # Calculate similarity using sklearn's cosine_similarity
-        weighted_vec1 = np.array([v * w for v, w in zip(vec1, weights)]).reshape(1, -1)
-        weighted_vec2 = np.array([v * w for v, w in zip(vec2, weights)]).reshape(1, -1)
+        # Calculate similarity between two vectors
+        weighted_vec1 = [v * w for v, w in zip(vec1, weights)]
+        weighted_vec2 = [v * w for v, w in zip(vec2, weights)]
         
-        # Use sklearn's cosine_similarity
-        similarity = cosine_similarity(weighted_vec1, weighted_vec2)[0][0]
+        dot_product = sum(a * b for a, b in zip(weighted_vec1, weighted_vec2))
+        magnitude1 = math.sqrt(sum(a * a for a in weighted_vec1))
+        magnitude2 = math.sqrt(sum(a * a for a in weighted_vec2))
         
-        return float(similarity)
+        if magnitude1 == 0 or magnitude2 == 0:
+            return 0.0
+        
+        return dot_product / (magnitude1 * magnitude2)
     
     def _calculate_confidence(self, similarity: float, matched_features: Dict) -> float:
         # Calculate confidence score

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar } from 'recharts';
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, Radar, PieChart, Pie, Cell } from 'recharts';
 import './styles/index.css';
 import Statistics from './components/Statistics';
 import Comparison from './components/Comparison';
@@ -12,6 +12,8 @@ function App() {
     stream: '',
     gpa: '',
     preferred_program: '',
+    interests: '',
+    career_goals: '',
     location: '',
     budget_range: ''
   });
@@ -44,10 +46,10 @@ function App() {
       .then(res => res.json())
       .then(data => {
         setAllColleges(data);
-        
+
         // Extract unique programs, interests, and careers
         const programs = [...new Set(data.flatMap(c => c.programs))].sort();
-        
+
         setAvailablePrograms(programs);
       })
       .catch(err => console.error('Error loading colleges:', err));
@@ -111,9 +113,10 @@ function App() {
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ 
+        body: JSON.stringify({
           message: currentInput,
-          history: chatMessages
+          history: chatMessages,
+          current_data: formData
         })
       });
 
@@ -234,7 +237,7 @@ function App() {
     <div className="app">
       <div className="header">
         <h1>College Recommendation System for Bachelor-Level Students in Nepal</h1>
-        <p>Advanced ML-based recommendation system with comparison and analytics</p>
+        <p>Advanced AI-based recommendation system with comparison and analytics</p>
       </div>
 
       <div className="main-container">
@@ -292,7 +295,31 @@ function App() {
               <small className="form-hint">Select from available programs or type your own</small>
             </div>
 
+            <div className="form-group">
+              <label htmlFor="interests">Your Interests</label>
+              <input
+                type="text"
+                id="interests"
+                name="interests"
+                value={formData.interests}
+                onChange={handleInputChange}
+                placeholder="e.g., Technology, Research, Business"
+              />
+              <small className="form-hint">What are you interested in?</small>
+            </div>
 
+            <div className="form-group">
+              <label htmlFor="career_goals">Career Goals</label>
+              <input
+                type="text"
+                id="career_goals"
+                name="career_goals"
+                value={formData.career_goals}
+                onChange={handleInputChange}
+                placeholder="e.g., Software Developer, Entrepreneur, Doctor"
+              />
+              <small className="form-hint">What do you want to become?</small>
+            </div>
 
             <div className="form-group">
               <label htmlFor="location">Preferred Location *</label>
@@ -373,19 +400,19 @@ function App() {
       {/* Tab Navigation */}
       {recommendations.length > 0 && (
         <div className="tabs">
-          <button 
+          <button
             className={activeTab === 'recommendations' ? 'tab active' : 'tab'}
             onClick={() => setActiveTab('recommendations')}
           >
             Recommendations
           </button>
-          <button 
+          <button
             className={activeTab === 'comparison' ? 'tab active' : 'tab'}
             onClick={() => setActiveTab('comparison')}
           >
             Compare Colleges
           </button>
-          <button 
+          <button
             className={activeTab === 'statistics' ? 'tab active' : 'tab'}
             onClick={() => setActiveTab('statistics')}
           >
@@ -418,7 +445,7 @@ function App() {
               <button className="export-btn" onClick={exportToCSV}>
                 Export to CSV
               </button>
-              <select 
+              <select
                 className="sort-select"
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
@@ -428,7 +455,7 @@ function App() {
                 <option value="gpa">Sort by GPA</option>
                 <option value="name">Sort by Name</option>
               </select>
-              <select 
+              <select
                 className="filter-select"
                 value={filterLocation}
                 onChange={(e) => setFilterLocation(e.target.value)}
@@ -438,7 +465,7 @@ function App() {
                   <option key={loc} value={loc.toLowerCase()}>{loc}</option>
                 ))}
               </select>
-              <select 
+              <select
                 className="filter-select"
                 value={filterBudget}
                 onChange={(e) => setFilterBudget(e.target.value)}
@@ -464,15 +491,83 @@ function App() {
                 <Bar dataKey="similarity" fill="#3498db" name="Similarity %" />
                 <Bar dataKey="confidence" fill="#2ecc71" name="Confidence %" />
               </BarChart>
+
+              {/* Distribution Pie Charts */}
+              <div className="pie-charts-container" style={{ display: 'flex', justifyContent: 'space-around', marginTop: '30px' }}>
+                {/* Budget Distribution */}
+                <div className="pie-chart-wrapper">
+                  <h4>Budget Distribution</h4>
+                  <PieChart width={350} height={300}>
+                    <Pie
+                      data={(() => {
+                        const budgetCounts = {};
+                        filteredRecommendations.forEach(rec => {
+                          const budget = rec.budget_range || 'Unknown';
+                          budgetCounts[budget] = (budgetCounts[budget] || 0) + 1;
+                        });
+                        return Object.keys(budgetCounts).map(key => ({
+                          name: key,
+                          value: budgetCounts[key]
+                        }));
+                      })()}
+                      cx={175}
+                      cy={130}
+                      labelLine={false}
+                      label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
+                      outerRadius={80}
+                      fill="#8884d8"
+                      dataKey="value"
+                    >
+                      {[{ color: '#0088FE' }, { color: '#00C49F' }, { color: '#FFBB28' }].map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={entry.color} />
+                      ))}
+                    </Pie>
+                    <Tooltip />
+                  </PieChart>
+                </div>
+
+                {/* Location Distribution */}
+                <div className="pie-chart-wrapper">
+                  <h4>Location Distribution</h4>
+                  <PieChart width={350} height={300}>
+                    <Pie
+                      data={(() => {
+                        const locationCounts = {};
+                        filteredRecommendations.forEach(rec => {
+                          const location = rec.location || 'Unknown';
+                          locationCounts[location] = (locationCounts[location] || 0) + 1;
+                        });
+                        return Object.keys(locationCounts).map(key => ({
+                          name: key,
+                          value: locationCounts[key]
+                        }));
+                      })()}
+                      cx={175}
+                      cy={130}
+                      labelLine={false}
+                      label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
+                      outerRadius={80}
+                      fill="#82ca9d"
+                      dataKey="value"
+                    >
+                      {[{ color: '#FF8042' }, { color: '#8884d8' }, { color: '#00C49F' }, { color: '#FFBB28' }, { color: '#FF6B9D' }].map((entry, index) => (
+                        <Cell key={`cell-${index}`} fill={entry.color} />
+                      ))}
+                    </Pie>
+                    <Tooltip />
+                  </PieChart>
+                </div>
+              </div>
             </div>
           )}
+
 
           {filteredRecommendations.length === 0 && recommendations.length > 0 ? (
             <div className="no-results">
               <h3>No colleges match your current filters</h3>
               <p>
                 Try adjusting your filters or{' '}
-                <button 
+                <button
                   className="reset-filters-btn"
                   onClick={() => {
                     setFilterLocation('all');
@@ -495,101 +590,106 @@ function App() {
                 </div>
               )}
               {filteredRecommendations.map((college, idx) => (
-            <div key={college.id || idx} className="recommendation-card">
-              <div className="card-header">
-                <div className="college-name">{college.name}</div>
-                <div className="score-badges">
-                  <span className="similarity-score">
-                    Match: {(college.similarity_score * 100).toFixed(1)}%
-                  </span>
-                  <span className="confidence-score">
-                    Confidence: {(college.confidence_score * 100).toFixed(1)}%
-                  </span>
-                </div>
-              </div>
-              <div className="college-location">📍 {college.location}</div>
-              
-              <div className="college-details">
-                <div className="detail-item">
-                  <strong>Programs:</strong>
-                  <div className="program-tags">
-                    {college.programs.map((prog, pidx) => (
-                      <span key={pidx} className="program-tag">{prog}</span>
-                    ))}
+                <div key={college.id || idx} className="recommendation-card">
+                  <div className="card-header">
+                    <div className="college-name">{college.name}</div>
+                    <div className="score-badges">
+                      <span className="similarity-score">
+                        Match: {(college.similarity_score * 100).toFixed(1)}%
+                      </span>
+                      <span className="confidence-score">
+                        Confidence: {(college.confidence_score * 100).toFixed(1)}%
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="detail-item">
-                  <strong>Minimum GPA:</strong> {college.min_gpa}
-                </div>
-                <div className="detail-item">
-                  <strong>Budget Range:</strong> {college.budget_range}
-                </div>
-                {college.type && (
-                  <div className="detail-item">
-                    <strong>Type:</strong> {college.type}
-                  </div>
-                )}
-                {college.website && (
-                  <div className="detail-item">
-                    <strong>Website:</strong> <a href={college.website} target="_blank" rel="noopener noreferrer">{college.website}</a>
-                  </div>
-                )}
-              </div>
+                  <div className="college-location">📍 {college.location}</div>
 
-              {/* Feature Match Breakdown */}
-              {college.feature_scores && (
-                <div className="feature-breakdown">
-                  <h4>Feature Match Breakdown:</h4>
-                  <div className="feature-scores">
-                    <div className="feature-item">
-                      <span>Program Match:</span>
-                      <span className={college.feature_scores.program_match > 0 ? 'match-yes' : 'match-no'}>
-                        {college.feature_scores.program_match > 0 ? '✓' : '✗'}
-                      </span>
+                  <div className="college-details">
+                    <div className="detail-item">
+                      <strong>Programs:</strong>
+                      <div className="program-tags">
+                        {college.programs.map((prog, pidx) => (
+                          <span key={pidx} className="program-tag">{prog}</span>
+                        ))}
+                      </div>
                     </div>
-                    <div className="feature-item">
-                      <span>Stream Match:</span>
-                      <span className={college.feature_scores.stream_match > 0 ? 'match-yes' : 'match-no'}>
-                        {college.feature_scores.stream_match > 0 ? '✓' : '✗'}
-                      </span>
+                    <div className="detail-item">
+                      <strong>Minimum GPA:</strong> {college.min_gpa}
                     </div>
-                    <div className="feature-item">
-                      <span>Location Match:</span>
-                      <span className={college.feature_scores.location_match > 0 ? 'match-yes' : 'match-no'}>
-                        {college.feature_scores.location_match > 0 ? '✓' : '✗'}
-                      </span>
+                    <div className="detail-item">
+                      <strong>Budget Range:</strong> {college.budget_range}
                     </div>
-                    <div className="feature-item">
-                      <span>Budget Match:</span>
-                      <span className={college.feature_scores.budget_match > 0 ? 'match-yes' : 'match-no'}>
-                        {college.feature_scores.budget_match > 0 ? '✓' : '✗'}
-                      </span>
+                    {college.type && (
+                      <div className="detail-item">
+                        <strong>Type:</strong> {college.type}
+                      </div>
+                    )}
+                    {college.website && (
+                      <div className="detail-item">
+                        <strong>Website:</strong> <a href={college.website} target="_blank" rel="noopener noreferrer">{college.website}</a>
+                      </div>
+                    )}
+                    {college.email && (
+                      <div className="detail-item">
+                        <strong>Email:</strong> <a href={`mailto:${college.email}`}>{college.email}</a>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Feature Match Breakdown */}
+                  {college.feature_scores && (
+                    <div className="feature-breakdown">
+                      <h4>Feature Match Breakdown:</h4>
+                      <div className="feature-scores">
+                        <div className="feature-item">
+                          <span>Program Match:</span>
+                          <span className={college.feature_scores.program_match > 0 ? 'match-yes' : 'match-no'}>
+                            {college.feature_scores.program_match > 0 ? '✓' : '✗'}
+                          </span>
+                        </div>
+                        <div className="feature-item">
+                          <span>Stream Match:</span>
+                          <span className={college.feature_scores.stream_match > 0 ? 'match-yes' : 'match-no'}>
+                            {college.feature_scores.stream_match > 0 ? '✓' : '✗'}
+                          </span>
+                        </div>
+                        <div className="feature-item">
+                          <span>Location Match:</span>
+                          <span className={college.feature_scores.location_match > 0 ? 'match-yes' : 'match-no'}>
+                            {college.feature_scores.location_match > 0 ? '✓' : '✗'}
+                          </span>
+                        </div>
+                        <div className="feature-item">
+                          <span>Budget Match:</span>
+                          <span className={college.feature_scores.budget_match > 0 ? 'match-yes' : 'match-no'}>
+                            {college.feature_scores.budget_match > 0 ? '✓' : '✗'}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
+                  <div className="explanation">
+                    <strong>Why this college?</strong> {college.explanation}
+                  </div>
+
+                  {/* Feedback Section */}
+                  <div className="feedback-section">
+                    <p>Was this recommendation helpful?</p>
+                    <div className="feedback-buttons">
+                      {[1, 2, 3, 4, 5].map(rating => (
+                        <button
+                          key={rating}
+                          className="feedback-btn"
+                          onClick={() => handleFeedback(college.id, rating)}
+                        >
+                          {rating} ⭐
+                        </button>
+                      ))}
                     </div>
                   </div>
                 </div>
-              )}
-
-              <div className="explanation">
-                <strong>Why this college?</strong> {college.explanation}
-              </div>
-
-              {/* Feedback Section */}
-              <div className="feedback-section">
-                <p>Was this recommendation helpful?</p>
-                <div className="feedback-buttons">
-                  {[1, 2, 3, 4, 5].map(rating => (
-                    <button
-                      key={rating}
-                      className="feedback-btn"
-                      onClick={() => handleFeedback(college.id, rating)}
-                    >
-                      {rating} ⭐
-                    </button>
-                  ))}
-                </div>
-              </div>
-            </div>
-          ))}
+              ))}
             </>
           )}
         </div>

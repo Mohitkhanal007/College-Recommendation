@@ -25,7 +25,7 @@
       "Learning"
     ],
     "description": "Pulchowk Campus (IOE) is a well-known Government institution located in Lalitpur.",
-    "website": "https://example.com/college1",
+    "website": "https://www.ioe.edu.np",
     "contact": "+977-1-4264390",
     "facilities": [
       "Library",
@@ -37,7 +37,8 @@
     "established": 1994,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ioe.edu.np"
   },
   {
     "id": 2,
@@ -64,7 +65,7 @@
       "Learning"
     ],
     "description": "Thapathali Campus (IOE) is a well-known Government institution located in Kathmandu.",
-    "website": "https://example.com/college2",
+    "website": "https://www.ioe.edu.np",
     "contact": "+977-1-4930427",
     "facilities": [
       "Library",
@@ -76,7 +77,8 @@
     "established": 1961,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ioe.edu.np"
   },
   {
     "id": 3,
@@ -102,7 +104,7 @@
       "Learning"
     ],
     "description": "National College of Engineering (NCE) is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college3",
+    "website": "https://www.nce.edu.np",
     "contact": "+977-1-4507628",
     "facilities": [
       "Library",
@@ -113,7 +115,8 @@
     "established": 1963,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "ncollege@ncts.com.np"
   },
   {
     "id": 4,
@@ -143,7 +146,7 @@
       "Learning"
     ],
     "description": "Nepal College of Information Technology (NCIT) is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college4",
+    "website": "https://www.ncit.edu.np",
     "contact": "+977-1-4861964",
     "facilities": [
       "Library",
@@ -155,7 +158,8 @@
     "established": 2009,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ncit.edu.np"
   },
   {
     "id": 5,
@@ -181,7 +185,7 @@
       "Learning"
     ],
     "description": "Khwopa Engineering College is a well-known Community institution located in Bhaktapur.",
-    "website": "https://example.com/college5",
+    "website": "https://khwopa.edu.np",
     "contact": "+977-1-4308986",
     "facilities": [
       "Library",
@@ -193,7 +197,8 @@
     "established": 1987,
     "type": "Community",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@khwopa.edu.np"
   },
   {
     "id": 6,
@@ -218,7 +223,7 @@
       "Learning"
     ],
     "description": "Himalaya College of Engineering is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college6",
+    "website": "https://www.hcoe.edu.np",
     "contact": "+977-1-4352776",
     "facilities": [
       "Library",
@@ -230,7 +235,8 @@
     "established": 1986,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@hcoe.edu.np"
   },
   {
     "id": 7,
@@ -255,7 +261,7 @@
       "Learning"
     ],
     "description": "Kantipur Engineering College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college7",
+    "website": "https://www.kec.edu.np",
     "contact": "+977-1-4982761",
     "facilities": [
       "Library",
@@ -267,7 +273,8 @@
     "established": 1986,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "admin@kec.edu.np"
   },
   {
     "id": 8,
@@ -294,7 +301,7 @@
       "Learning"
     ],
     "description": "Kathmandu Engineering College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college8",
+    "website": "https://www.keckist.edu.np",
     "contact": "+977-1-4795143",
     "facilities": [
       "Library",
@@ -305,7 +312,8 @@
     "established": 1993,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@keckist.edu.np"
   },
   {
     "id": 9,
@@ -330,7 +338,7 @@
       "Learning"
     ],
     "description": "Janakpur Engineering College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college9",
+    "website": "https://www.jec.edu.np",
     "contact": "+977-1-4224947",
     "facilities": [
       "Library",
@@ -341,7 +349,8 @@
     "established": 1965,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@jec.edu.np"
   },
   {
     "id": 10,
@@ -366,7 +375,7 @@
       "Learning"
     ],
     "description": "Gandaki College of Engineering and Science is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college10",
+    "website": "https://gces.edu.np",
     "contact": "+977-1-4028958",
     "facilities": [
       "Library",
@@ -378,7 +387,8 @@
     "established": 1962,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "gces@gces.edu.np"
   },
   {
     "id": 11,
@@ -406,7 +416,7 @@
       "Learning"
     ],
     "description": "Nepal Engineering College is a well-known Private institution located in Bhaktapur.",
-    "website": "https://example.com/college11",
+    "website": "https://nec.edu.np",
     "contact": "+977-1-4616521",
     "facilities": [
       "Library",
@@ -418,7 +428,8 @@
     "established": 1964,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nec.edu.np"
   },
   {
     "id": 12,
@@ -446,7 +457,7 @@
       "Learning"
     ],
     "description": "Pashchimanchal Campus (IOE) is a well-known Government institution located in Pokhara.",
-    "website": "https://example.com/college12",
+    "website": "https://wrc.edu.np",
     "contact": "+977-1-4858716",
     "facilities": [
       "Library",
@@ -457,7 +468,8 @@
     "established": 1985,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@wrc.edu.np"
   },
   {
     "id": 13,
@@ -484,7 +496,7 @@
       "Learning"
     ],
     "description": "Purwanchal Campus (IOE) is a well-known Government institution located in Dharan.",
-    "website": "https://example.com/college13",
+    "website": "https://ioepc.edu.np",
     "contact": "+977-1-4871185",
     "facilities": [
       "Library",
@@ -496,7 +508,8 @@
     "established": 1973,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ioepc.edu.np"
   },
   {
     "id": 14,
@@ -520,7 +533,7 @@
       "Learning"
     ],
     "description": "Lalitpur Engineering College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college14",
+    "website": "https://lec.edu.np",
     "contact": "+977-1-4658860",
     "facilities": [
       "Library",
@@ -531,7 +544,8 @@
     "established": 2005,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@lec.edu.np"
   },
   {
     "id": 15,
@@ -555,7 +569,7 @@
       "Learning"
     ],
     "description": "Madan Bhandari Memorial Academy Nepal is a well-known Community institution located in Morang.",
-    "website": "https://example.com/college15",
+    "website": "https://mbman.edu.np",
     "contact": "+977-1-4574242",
     "facilities": [
       "Library",
@@ -567,7 +581,8 @@
     "established": 1981,
     "type": "Community",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@mbman.edu.np"
   },
   {
     "id": 16,
@@ -592,7 +607,7 @@
       "Learning"
     ],
     "description": "Sagarmatha Engineering College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college16",
+    "website": "https://sagarmatha.edu.np",
     "contact": "+977-1-4174130",
     "facilities": [
       "Library",
@@ -604,7 +619,8 @@
     "established": 1960,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@sagarmatha.edu.np"
   },
   {
     "id": 17,
@@ -633,7 +649,7 @@
       "Learning"
     ],
     "description": "Cosmos College of Management and Technology is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college17",
+    "website": "https://cosmoscollege.edu.np",
     "contact": "+977-1-4416140",
     "facilities": [
       "Library",
@@ -644,7 +660,8 @@
     "established": 1984,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@cosmoscollege.edu.np"
   },
   {
     "id": 18,
@@ -671,7 +688,7 @@
       "Learning"
     ],
     "description": "Ritz College of Engineering and Management is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college18",
+    "website": "https://ritz.edu.np",
     "contact": "+977-1-4048993",
     "facilities": [
       "Library",
@@ -683,7 +700,8 @@
     "established": 1988,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ritz.edu.np"
   },
   {
     "id": 19,
@@ -711,7 +729,7 @@
       "Learning"
     ],
     "description": "Kathmandu Model College (KMC) is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college19",
+    "website": "https://ktmmodelcollege.edu.np",
     "contact": "+977-1-4373089",
     "facilities": [
       "Library",
@@ -722,7 +740,8 @@
     "established": 1986,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ktmmodelcollege.edu.np"
   },
   {
     "id": 20,
@@ -750,7 +769,7 @@
       "Learning"
     ],
     "description": "DAV College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college20",
+    "website": "https://davcollege.edu.np",
     "contact": "+977-1-4365005",
     "facilities": [
       "Library",
@@ -762,7 +781,8 @@
     "established": 1995,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@davcollege.edu.np"
   },
   {
     "id": 21,
@@ -789,7 +809,7 @@
       "Learning"
     ],
     "description": "Padmashree College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college21",
+    "website": "https://padmashreecollege.edu.np",
     "contact": "+977-1-4252308",
     "facilities": [
       "Library",
@@ -801,7 +821,8 @@
     "established": 1980,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@padmashreecollege.edu.np"
   },
   {
     "id": 22,
@@ -828,7 +849,7 @@
       "Learning"
     ],
     "description": "Campion College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college22",
+    "website": "https://www.campion.edu.np",
     "contact": "+977-1-4098980",
     "facilities": [
       "Library",
@@ -840,7 +861,8 @@
     "established": 1974,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@campion.edu.np"
   },
   {
     "id": 23,
@@ -868,7 +890,7 @@
       "Learning"
     ],
     "description": "Thames College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college23",
+    "website": "https://thamescollege.edu.np",
     "contact": "+977-1-4046725",
     "facilities": [
       "Library",
@@ -880,7 +902,8 @@
     "established": 1972,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@thamescollege.edu.np"
   },
   {
     "id": 24,
@@ -908,7 +931,7 @@
       "Learning"
     ],
     "description": "Kathford International College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college24",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4839571",
     "facilities": [
       "Library",
@@ -919,7 +942,8 @@
     "established": 1962,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 25,
@@ -944,7 +968,7 @@
       "Learning"
     ],
     "description": "Kantipur College of Management and IT is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college25",
+    "website": "https://kec.edu.np",
     "contact": "+977-1-4634586",
     "facilities": [
       "Library",
@@ -955,7 +979,8 @@
     "established": 2004,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "admin@kec.edu.np"
   },
   {
     "id": 26,
@@ -981,7 +1006,7 @@
       "Learning"
     ],
     "description": "Ace Institute of Management is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college26",
+    "website": "https://ace.edu.np",
     "contact": "+977-1-4127688",
     "facilities": [
       "Library",
@@ -993,7 +1018,8 @@
     "established": 2007,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ace.edu.np"
   },
   {
     "id": 27,
@@ -1019,7 +1045,7 @@
       "Learning"
     ],
     "description": "Uniglobe College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college27",
+    "website": "https://uniglobe.edu.np",
     "contact": "+977-1-4720775",
     "facilities": [
       "Library",
@@ -1031,7 +1057,8 @@
     "established": 1989,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@uniglobe.edu.np"
   },
   {
     "id": 28,
@@ -1057,7 +1084,7 @@
       "Learning"
     ],
     "description": "Quest International College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college28",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4926571",
     "facilities": [
       "Library",
@@ -1068,7 +1095,8 @@
     "established": 2010,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 29,
@@ -1092,7 +1120,7 @@
       "Learning"
     ],
     "description": "Liberty College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college29",
+    "website": "https://www.liberty.edu.np",
     "contact": "+977-1-4249830",
     "facilities": [
       "Library",
@@ -1103,7 +1131,8 @@
     "established": 2009,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@liberty.edu.np"
   },
   {
     "id": 30,
@@ -1128,7 +1157,7 @@
       "Learning"
     ],
     "description": "South Asian Institute of Management (SAIM) is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college30",
+    "website": "https://asian.edu.np",
     "contact": "+977-1-4704060",
     "facilities": [
       "Library",
@@ -1140,7 +1169,8 @@
     "established": 2002,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@asian.edu.np"
   },
   {
     "id": 31,
@@ -1167,7 +1197,7 @@
       "Learning"
     ],
     "description": "Kantipur Valley College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college31",
+    "website": "https://kec.edu.np",
     "contact": "+977-1-4780410",
     "facilities": [
       "Library",
@@ -1179,7 +1209,8 @@
     "established": 1989,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "admin@kec.edu.np"
   },
   {
     "id": 32,
@@ -1206,7 +1237,7 @@
       "Learning"
     ],
     "description": "Himalayan Whitehouse International College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college32",
+    "website": "https://hcoe.edu.np",
     "contact": "+977-1-4071873",
     "facilities": [
       "Library",
@@ -1218,7 +1249,8 @@
     "established": 2000,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@hcoe.edu.np"
   },
   {
     "id": 33,
@@ -1246,7 +1278,7 @@
       "Learning"
     ],
     "description": "Shankar Dev Campus is a well-known Government institution located in Kathmandu.",
-    "website": "https://example.com/college33",
+    "website": "https://www.shankardev.edu.np",
     "contact": "+977-1-4221498",
     "facilities": [
       "Library",
@@ -1258,7 +1290,8 @@
     "established": 2004,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@shankardev.edu.np"
   },
   {
     "id": 34,
@@ -1286,7 +1319,7 @@
       "Learning"
     ],
     "description": "Nepal Commerce Campus is a well-known Government institution located in Kathmandu.",
-    "website": "https://example.com/college34",
+    "website": "https://www.nepalcommerce.edu.np",
     "contact": "+977-1-4515262",
     "facilities": [
       "Library",
@@ -1298,7 +1331,8 @@
     "established": 1974,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nepalcommerce.edu.np"
   },
   {
     "id": 35,
@@ -1327,7 +1361,7 @@
       "Learning"
     ],
     "description": "Padma Kanya Multiple Campus is a well-known Government institution located in Kathmandu.",
-    "website": "https://example.com/college35",
+    "website": "https://www.padmakanyamultiple.edu.np",
     "contact": "+977-1-4756453",
     "facilities": [
       "Library",
@@ -1338,7 +1372,8 @@
     "established": 1977,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@padmakanyamultiple.edu.np"
   },
   {
     "id": 36,
@@ -1364,7 +1399,7 @@
       "Learning"
     ],
     "description": "Gandaki College of Engineering and Science is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college36",
+    "website": "https://gces.edu.np",
     "contact": "+977-1-4949790",
     "facilities": [
       "Library",
@@ -1375,7 +1410,8 @@
     "established": 1960,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "gces@gces.edu.np"
   },
   {
     "id": 37,
@@ -1401,7 +1437,7 @@
       "Learning"
     ],
     "description": "Pokhara Engineering College is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college37",
+    "website": "https://pec.edu.np",
     "contact": "+977-1-4190361",
     "facilities": [
       "Library",
@@ -1413,7 +1449,8 @@
     "established": 2003,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@pec.edu.np"
   },
   {
     "id": 38,
@@ -1445,7 +1482,7 @@
       "Learning"
     ],
     "description": "Prithvi Narayan Campus is a well-known Government institution located in Pokhara.",
-    "website": "https://example.com/college38",
+    "website": "https://www.prithvinarayan.edu.np",
     "contact": "+977-1-4865446",
     "facilities": [
       "Library",
@@ -1456,7 +1493,8 @@
     "established": 1978,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@prithvinarayan.edu.np"
   },
   {
     "id": 39,
@@ -1482,7 +1520,7 @@
       "Learning"
     ],
     "description": "LA Grandee International College is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college39",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4204835",
     "facilities": [
       "Library",
@@ -1494,7 +1532,8 @@
     "established": 1999,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 40,
@@ -1519,7 +1558,7 @@
       "Learning"
     ],
     "description": "Informatics College Pokhara is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college40",
+    "website": "https://www.informaticspokhara.edu.np",
     "contact": "+977-1-4447309",
     "facilities": [
       "Library",
@@ -1531,7 +1570,8 @@
     "established": 1962,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@informaticspokhara.edu.np"
   },
   {
     "id": 41,
@@ -1556,7 +1596,7 @@
       "Learning"
     ],
     "description": "Pokhara College of Management is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college41",
+    "website": "https://www.pokharamanagement.edu.np",
     "contact": "+977-1-4448592",
     "facilities": [
       "Library",
@@ -1568,7 +1608,8 @@
     "established": 2002,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@pokharamanagement.edu.np"
   },
   {
     "id": 42,
@@ -1596,7 +1637,7 @@
       "Learning"
     ],
     "description": "Janapriya Multiple Campus is a well-known Community institution located in Pokhara.",
-    "website": "https://example.com/college42",
+    "website": "https://www.janapriyamultiple.edu.np",
     "contact": "+977-1-4286901",
     "facilities": [
       "Library",
@@ -1607,7 +1648,8 @@
     "established": 1983,
     "type": "Community",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@janapriyamultiple.edu.np"
   },
   {
     "id": 43,
@@ -1631,7 +1673,7 @@
       "Learning"
     ],
     "description": "Mount Annapurna Campus is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college43",
+    "website": "https://www.mountannapurna.edu.np",
     "contact": "+977-1-4365948",
     "facilities": [
       "Library",
@@ -1643,7 +1685,8 @@
     "established": 2006,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@mountannapurna.edu.np"
   },
   {
     "id": 44,
@@ -1667,7 +1710,7 @@
       "Learning"
     ],
     "description": "Soch College of IT is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college44",
+    "website": "https://www.sochit.edu.np",
     "contact": "+977-1-4435069",
     "facilities": [
       "Library",
@@ -1679,7 +1722,8 @@
     "established": 1995,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@sochit.edu.np"
   },
   {
     "id": 45,
@@ -1709,7 +1753,7 @@
       "Learning"
     ],
     "description": "Mahendra Morang Adarsha Multiple Campus is a well-known Government institution located in Biratnagar.",
-    "website": "https://example.com/college45",
+    "website": "https://www.mahendramorangadarshamultiple.edu.np",
     "contact": "+977-1-4022551",
     "facilities": [
       "Library",
@@ -1721,7 +1765,8 @@
     "established": 1963,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@mahendramorangadarshamultiple.edu.np"
   },
   {
     "id": 46,
@@ -1746,7 +1791,7 @@
       "Learning"
     ],
     "description": "Purbanchal University School of Management (PUSOM) is a well-known Government institution located in Biratnagar.",
-    "website": "https://example.com/college46",
+    "website": "https://www.purbanchaluniversityschoolmanagement(pusom).edu.np",
     "contact": "+977-1-4477244",
     "facilities": [
       "Library",
@@ -1758,7 +1803,8 @@
     "established": 1980,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@purbanchaluniversityschoolmanagement(pusom).edu.np"
   },
   {
     "id": 47,
@@ -1783,7 +1829,7 @@
       "Learning"
     ],
     "description": "Eastern College of Engineering is a well-known Private institution located in Biratnagar.",
-    "website": "https://example.com/college47",
+    "website": "https://www.eastern.edu.np",
     "contact": "+977-1-4116396",
     "facilities": [
       "Library",
@@ -1794,7 +1840,8 @@
     "established": 2010,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@eastern.edu.np"
   },
   {
     "id": 48,
@@ -1818,7 +1865,7 @@
       "Learning"
     ],
     "description": "Birat Multiple College is a well-known Private institution located in Biratnagar.",
-    "website": "https://example.com/college48",
+    "website": "https://www.biratmultiple.edu.np",
     "contact": "+977-1-4759299",
     "facilities": [
       "Library",
@@ -1829,7 +1876,8 @@
     "established": 1973,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@biratmultiple.edu.np"
   },
   {
     "id": 49,
@@ -1854,7 +1902,7 @@
       "Learning"
     ],
     "description": "AIMS College is a well-known Private institution located in Biratnagar.",
-    "website": "https://example.com/college49",
+    "website": "https://www.aims.edu.np",
     "contact": "+977-1-4127909",
     "facilities": [
       "Library",
@@ -1865,7 +1913,8 @@
     "established": 1963,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@aims.edu.np"
   },
   {
     "id": 50,
@@ -1891,7 +1940,7 @@
       "Learning"
     ],
     "description": "Nihareeka College is a well-known Private institution located in Biratnagar.",
-    "website": "https://example.com/college50",
+    "website": "https://www.nihareeka.edu.np",
     "contact": "+977-1-4288942",
     "facilities": [
       "Library",
@@ -1903,7 +1952,8 @@
     "established": 1970,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nihareeka.edu.np"
   },
   {
     "id": 51,
@@ -1928,7 +1978,7 @@
       "Learning"
     ],
     "description": "Birat Kshitiz College is a well-known Private institution located in Biratnagar.",
-    "website": "https://example.com/college51",
+    "website": "https://bkcn.edu.np",
     "contact": "+977-1-4589508",
     "facilities": [
       "Library",
@@ -1939,7 +1989,8 @@
     "established": 2006,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@bkcn.edu.np"
   },
   {
     "id": 52,
@@ -1964,7 +2015,7 @@
       "Learning"
     ],
     "description": "Purbanchal University School of Engineering is a well-known Government institution located in Biratnagar.",
-    "website": "https://example.com/college52",
+    "website": "https://www.purbanchaluniversityschool.edu.np",
     "contact": "+977-1-4167902",
     "facilities": [
       "Library",
@@ -1976,7 +2027,8 @@
     "established": 2008,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@purbanchaluniversityschool.edu.np"
   },
   {
     "id": 53,
@@ -2006,7 +2058,7 @@
       "Learning"
     ],
     "description": "Birendra Multiple Campus is a well-known Government institution located in Chitwan.",
-    "website": "https://example.com/college53",
+    "website": "https://www.birendramultiple.edu.np",
     "contact": "+977-1-4567131",
     "facilities": [
       "Library",
@@ -2017,7 +2069,8 @@
     "established": 1985,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@birendramultiple.edu.np"
   },
   {
     "id": 54,
@@ -2043,7 +2096,7 @@
       "Learning"
     ],
     "description": "Valley State College is a well-known Private institution located in Chitwan.",
-    "website": "https://example.com/college54",
+    "website": "https://www.valleystate.edu.np",
     "contact": "+977-1-4968875",
     "facilities": [
       "Library",
@@ -2055,7 +2108,8 @@
     "established": 2000,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@valleystate.edu.np"
   },
   {
     "id": 55,
@@ -2080,7 +2134,7 @@
       "Learning"
     ],
     "description": "United Technical College (U-TEC) is a well-known Private institution located in Chitwan.",
-    "website": "https://example.com/college55",
+    "website": "https://www.unitedtechnical(u-tec).edu.np",
     "contact": "+977-1-4138016",
     "facilities": [
       "Library",
@@ -2092,7 +2146,8 @@
     "established": 1979,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@unitedtechnical(u-tec).edu.np"
   },
   {
     "id": 56,
@@ -2117,7 +2172,7 @@
       "Learning"
     ],
     "description": "Nepal Polytechnic Institute is a well-known Private institution located in Chitwan.",
-    "website": "https://example.com/college56",
+    "website": "https://www.nepalpolytechnicinstitute.edu.np",
     "contact": "+977-1-4674886",
     "facilities": [
       "Library",
@@ -2129,7 +2184,8 @@
     "established": 1967,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nepalpolytechnicinstitute.edu.np"
   },
   {
     "id": 57,
@@ -2153,7 +2209,7 @@
       "Learning"
     ],
     "description": "Chitwan Engineering Campus is a well-known Government institution located in Chitwan.",
-    "website": "https://example.com/college57",
+    "website": "https://cec.tu.edu.np",
     "contact": "+977-1-4522977",
     "facilities": [
       "Library",
@@ -2164,7 +2220,8 @@
     "established": 1970,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@cec.tu.edu.np"
   },
   {
     "id": 58,
@@ -2190,7 +2247,7 @@
       "Learning"
     ],
     "description": "Boston International College is a well-known Private institution located in Chitwan.",
-    "website": "https://example.com/college58",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4130534",
     "facilities": [
       "Library",
@@ -2201,7 +2258,8 @@
     "established": 2000,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 59,
@@ -2225,7 +2283,7 @@
       "Learning"
     ],
     "description": "Indreni College is a well-known Private institution located in Chitwan.",
-    "website": "https://example.com/college59",
+    "website": "https://www.indreni.edu.np",
     "contact": "+977-1-4845744",
     "facilities": [
       "Library",
@@ -2237,7 +2295,8 @@
     "established": 1990,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@indreni.edu.np"
   },
   {
     "id": 60,
@@ -2262,7 +2321,7 @@
       "Learning"
     ],
     "description": "Butwal Model College is a well-known Private institution located in Butwal.",
-    "website": "https://example.com/college60",
+    "website": "https://www.butwalmodel.edu.np",
     "contact": "+977-1-4554671",
     "facilities": [
       "Library",
@@ -2273,7 +2332,8 @@
     "established": 1976,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@butwalmodel.edu.np"
   },
   {
     "id": 61,
@@ -2300,7 +2360,7 @@
       "Learning"
     ],
     "description": "Lumbini Banijya Campus is a well-known Community institution located in Butwal.",
-    "website": "https://example.com/college61",
+    "website": "https://www.lumbinibanijya.edu.np",
     "contact": "+977-1-4330293",
     "facilities": [
       "Library",
@@ -2311,7 +2371,8 @@
     "established": 1992,
     "type": "Community",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@lumbinibanijya.edu.np"
   },
   {
     "id": 62,
@@ -2338,7 +2399,7 @@
       "Learning"
     ],
     "description": "Crimson College of Technology is a well-known Private institution located in Butwal.",
-    "website": "https://example.com/college62",
+    "website": "https://www.crimsontechnology.edu.np",
     "contact": "+977-1-4652791",
     "facilities": [
       "Library",
@@ -2349,7 +2410,8 @@
     "established": 1987,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@crimsontechnology.edu.np"
   },
   {
     "id": 63,
@@ -2377,7 +2439,7 @@
       "Learning"
     ],
     "description": "Butwal Multiple Campus is a well-known Government institution located in Butwal.",
-    "website": "https://example.com/college63",
+    "website": "https://www.butwalmultiple.edu.np",
     "contact": "+977-1-4695192",
     "facilities": [
       "Library",
@@ -2388,7 +2450,8 @@
     "established": 1996,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@butwalmultiple.edu.np"
   },
   {
     "id": 64,
@@ -2413,7 +2476,7 @@
       "Learning"
     ],
     "description": "Siddhartha International College is a well-known Private institution located in Butwal.",
-    "website": "https://example.com/college64",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4823090",
     "facilities": [
       "Library",
@@ -2425,7 +2488,8 @@
     "established": 1971,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 65,
@@ -2449,7 +2513,7 @@
       "Learning"
     ],
     "description": "Nepathya College is a well-known Private institution located in Butwal.",
-    "website": "https://example.com/college65",
+    "website": "https://www.nepathya.edu.np",
     "contact": "+977-1-4605887",
     "facilities": [
       "Library",
@@ -2461,7 +2525,8 @@
     "established": 1991,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nepathya.edu.np"
   },
   {
     "id": 66,
@@ -2487,7 +2552,7 @@
       "Learning"
     ],
     "description": "Tilottama Campus is a well-known Private institution located in Butwal.",
-    "website": "https://example.com/college66",
+    "website": "https://www.tilottama.edu.np",
     "contact": "+977-1-4137218",
     "facilities": [
       "Library",
@@ -2499,7 +2564,8 @@
     "established": 1985,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@tilottama.edu.np"
   },
   {
     "id": 67,
@@ -2526,7 +2592,7 @@
       "Learning"
     ],
     "description": "Purwanchal Campus (IOE) is a well-known Government institution located in Dharan.",
-    "website": "https://example.com/college67",
+    "website": "https://ioepc.edu.np",
     "contact": "+977-1-4475340",
     "facilities": [
       "Library",
@@ -2537,7 +2603,8 @@
     "established": 1969,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ioepc.edu.np"
   },
   {
     "id": 68,
@@ -2563,7 +2630,7 @@
       "Learning"
     ],
     "description": "B.P. Koirala Institute of Health Sciences is a well-known Government institution located in Dharan.",
-    "website": "https://example.com/college68",
+    "website": "https://www.b.p.koiralainstitutehealthsciences.edu.np",
     "contact": "+977-1-4166677",
     "facilities": [
       "Library",
@@ -2574,7 +2641,8 @@
     "established": 1967,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@b.p.koiralainstitutehealthsciences.edu.np"
   },
   {
     "id": 69,
@@ -2601,7 +2669,7 @@
       "Learning"
     ],
     "description": "Sunsari Multiple Campus is a well-known Community institution located in Dharan.",
-    "website": "https://example.com/college69",
+    "website": "https://www.sunsarimultiple.edu.np",
     "contact": "+977-1-4514152",
     "facilities": [
       "Library",
@@ -2612,7 +2680,8 @@
     "established": 1977,
     "type": "Community",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@sunsarimultiple.edu.np"
   },
   {
     "id": 70,
@@ -2640,7 +2709,7 @@
       "Learning"
     ],
     "description": "Itahari Namuna College is a well-known Private institution located in Itahari.",
-    "website": "https://example.com/college70",
+    "website": "https://www.itaharinamuna.edu.np",
     "contact": "+977-1-4543591",
     "facilities": [
       "Library",
@@ -2652,7 +2721,8 @@
     "established": 1976,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@itaharinamuna.edu.np"
   },
   {
     "id": 71,
@@ -2677,7 +2747,7 @@
       "Learning"
     ],
     "description": "Kasturi College is a well-known Private institution located in Itahari.",
-    "website": "https://example.com/college71",
+    "website": "https://www.kasturi.edu.np",
     "contact": "+977-1-4428293",
     "facilities": [
       "Library",
@@ -2688,7 +2758,8 @@
     "established": 1990,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@kasturi.edu.np"
   },
   {
     "id": 72,
@@ -2715,7 +2786,7 @@
       "Learning"
     ],
     "description": "Sushma Godawari College is a well-known Private institution located in Itahari.",
-    "website": "https://example.com/college72",
+    "website": "https://www.sushmagodawari.edu.np",
     "contact": "+977-1-4549550",
     "facilities": [
       "Library",
@@ -2726,7 +2797,8 @@
     "established": 1982,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@sushmagodawari.edu.np"
   },
   {
     "id": 73,
@@ -2751,7 +2823,7 @@
       "Learning"
     ],
     "description": "Dharan College of Management is a well-known Private institution located in Dharan.",
-    "website": "https://example.com/college73",
+    "website": "https://www.dharanmanagement.edu.np",
     "contact": "+977-1-4176591",
     "facilities": [
       "Library",
@@ -2763,7 +2835,8 @@
     "established": 1973,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@dharanmanagement.edu.np"
   },
   {
     "id": 74,
@@ -2787,7 +2860,7 @@
       "Learning"
     ],
     "description": "Nepalgunj Medical College is a well-known Private institution located in Nepalgunj.",
-    "website": "https://example.com/college74",
+    "website": "https://www.nepalgunjmedical.edu.np",
     "contact": "+977-1-4350458",
     "facilities": [
       "Library",
@@ -2799,7 +2872,8 @@
     "established": 1976,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nepalgunjmedical.edu.np"
   },
   {
     "id": 75,
@@ -2824,7 +2898,7 @@
       "Learning"
     ],
     "description": "Nepalgunj College is a well-known Private institution located in Nepalgunj.",
-    "website": "https://example.com/college75",
+    "website": "https://www.nepalgunj.edu.np",
     "contact": "+977-1-4939562",
     "facilities": [
       "Library",
@@ -2836,7 +2910,8 @@
     "established": 1991,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nepalgunj.edu.np"
   },
   {
     "id": 76,
@@ -2860,7 +2935,7 @@
       "Learning"
     ],
     "description": "Brightland College is a well-known Private institution located in Nepalgunj.",
-    "website": "https://example.com/college76",
+    "website": "https://www.brightland.edu.np",
     "contact": "+977-1-4414743",
     "facilities": [
       "Library",
@@ -2871,7 +2946,8 @@
     "established": 1980,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@brightland.edu.np"
   },
   {
     "id": 77,
@@ -2898,7 +2974,7 @@
       "Learning"
     ],
     "description": "Kailali Multiple Campus is a well-known Community institution located in Dhangadhi.",
-    "website": "https://example.com/college77",
+    "website": "https://www.kailalimultiple.edu.np",
     "contact": "+977-1-4183182",
     "facilities": [
       "Library",
@@ -2909,7 +2985,8 @@
     "established": 1983,
     "type": "Community",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@kailalimultiple.edu.np"
   },
   {
     "id": 78,
@@ -2934,7 +3011,7 @@
       "Learning"
     ],
     "description": "Asian Byabasthapan College is a well-known Private institution located in Dhangadhi.",
-    "website": "https://example.com/college78",
+    "website": "https://asian.edu.np",
     "contact": "+977-1-4570822",
     "facilities": [
       "Library",
@@ -2946,7 +3023,8 @@
     "established": 2006,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@asian.edu.np"
   },
   {
     "id": 79,
@@ -2972,7 +3050,7 @@
       "Learning"
     ],
     "description": "Sudur Paschimanchal Campus is a well-known Private institution located in Dhangadhi.",
-    "website": "https://example.com/college79",
+    "website": "https://wrc.edu.np",
     "contact": "+977-1-4246617",
     "facilities": [
       "Library",
@@ -2983,7 +3061,8 @@
     "established": 1980,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@wrc.edu.np"
   },
   {
     "id": 80,
@@ -3009,7 +3088,7 @@
       "Learning"
     ],
     "description": "Hetauda School of Management is a well-known Private institution located in Hetauda.",
-    "website": "https://example.com/college80",
+    "website": "https://www.hetaudaschoolmanagement.edu.np",
     "contact": "+977-1-4174404",
     "facilities": [
       "Library",
@@ -3021,7 +3100,8 @@
     "established": 1989,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@hetaudaschoolmanagement.edu.np"
   },
   {
     "id": 81,
@@ -3047,7 +3127,7 @@
       "Learning"
     ],
     "description": "Janapriya Multiple Campus is a well-known Community institution located in Hetauda.",
-    "website": "https://example.com/college81",
+    "website": "https://www.janapriyamultiple.edu.np",
     "contact": "+977-1-4389666",
     "facilities": [
       "Library",
@@ -3059,7 +3139,8 @@
     "established": 2003,
     "type": "Community",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@janapriyamultiple.edu.np"
   },
   {
     "id": 82,
@@ -3085,7 +3166,7 @@
       "Learning"
     ],
     "description": "Makwanpur Multiple Campus is a well-known Community institution located in Hetauda.",
-    "website": "https://example.com/college82",
+    "website": "https://www.makwanpurmultiple.edu.np",
     "contact": "+977-1-4452017",
     "facilities": [
       "Library",
@@ -3096,7 +3177,8 @@
     "established": 2006,
     "type": "Community",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@makwanpurmultiple.edu.np"
   },
   {
     "id": 83,
@@ -3121,7 +3203,7 @@
       "Learning"
     ],
     "description": "Herald College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college83",
+    "website": "https://heraldcollege.edu.np",
     "contact": "+977-1-4322250",
     "facilities": [
       "Library",
@@ -3133,7 +3215,8 @@
     "established": 1997,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@heraldcollege.edu.np"
   },
   {
     "id": 84,
@@ -3161,7 +3244,7 @@
       "Learning"
     ],
     "description": "The British College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college84",
+    "website": "https://thebritishcollege.edu.np",
     "contact": "+977-1-4773337",
     "facilities": [
       "Library",
@@ -3172,7 +3255,8 @@
     "established": 1974,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@thebritishcollege.edu.np"
   },
   {
     "id": 85,
@@ -3200,7 +3284,7 @@
       "Learning"
     ],
     "description": "Islington College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college85",
+    "website": "https://islington.edu.np",
     "contact": "+977-1-4423125",
     "facilities": [
       "Library",
@@ -3212,7 +3296,8 @@
     "established": 1975,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@islington.edu.np"
   },
   {
     "id": 86,
@@ -3237,7 +3322,7 @@
       "Learning"
     ],
     "description": "Softwarica College of IT and E-Commerce is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college86",
+    "website": "https://softwarica.edu.np",
     "contact": "+977-1-4281550",
     "facilities": [
       "Library",
@@ -3249,7 +3334,8 @@
     "established": 2008,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@softwarica.edu.np"
   },
   {
     "id": 87,
@@ -3275,7 +3361,7 @@
       "Learning"
     ],
     "description": "International School of Management and Technology (ISMT) is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college87",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4419169",
     "facilities": [
       "Library",
@@ -3287,7 +3373,8 @@
     "established": 1997,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 88,
@@ -3311,7 +3398,7 @@
       "Learning"
     ],
     "description": "Deerwalk Institute of Technology is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college88",
+    "website": "https://www.deerwalkinstitutetechnology.edu.np",
     "contact": "+977-1-4004895",
     "facilities": [
       "Library",
@@ -3323,7 +3410,8 @@
     "established": 1987,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@deerwalkinstitutetechnology.edu.np"
   },
   {
     "id": 89,
@@ -3350,7 +3438,7 @@
       "Learning"
     ],
     "description": "Texas International College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college89",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4725522",
     "facilities": [
       "Library",
@@ -3362,7 +3450,8 @@
     "established": 2005,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 90,
@@ -3390,7 +3479,7 @@
       "Learning"
     ],
     "description": "Orchid International College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college90",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4768941",
     "facilities": [
       "Library",
@@ -3401,7 +3490,8 @@
     "established": 1976,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 91,
@@ -3428,7 +3518,7 @@
       "Learning"
     ],
     "description": "Samriddhi College is a well-known Private institution located in Bhaktapur.",
-    "website": "https://example.com/college91",
+    "website": "https://samriddhi.edu.np",
     "contact": "+977-1-4762747",
     "facilities": [
       "Library",
@@ -3439,7 +3529,8 @@
     "established": 1971,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@samriddhi.edu.np"
   },
   {
     "id": 92,
@@ -3464,7 +3555,7 @@
       "Learning"
     ],
     "description": "Nagarjuna College of Information Technology is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college92",
+    "website": "https://www.nagarjunainformationtechnology.edu.np",
     "contact": "+977-1-4928652",
     "facilities": [
       "Library",
@@ -3475,7 +3566,8 @@
     "established": 2000,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nagarjunainformationtechnology.edu.np"
   },
   {
     "id": 93,
@@ -3499,7 +3591,7 @@
       "Learning"
     ],
     "description": "Swastik College is a well-known Private institution located in Bhaktapur.",
-    "website": "https://example.com/college93",
+    "website": "https://www.swastik.edu.np",
     "contact": "+977-1-4536281",
     "facilities": [
       "Library",
@@ -3511,7 +3603,8 @@
     "established": 2010,
     "type": "Private",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@swastik.edu.np"
   },
   {
     "id": 94,
@@ -3539,7 +3632,7 @@
       "Learning"
     ],
     "description": "Amrit Science Campus is a well-known Government institution located in Kathmandu.",
-    "website": "https://example.com/college94",
+    "website": "https://www.amritscience.edu.np",
     "contact": "+977-1-4589099",
     "facilities": [
       "Library",
@@ -3550,7 +3643,8 @@
     "established": 1974,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@amritscience.edu.np"
   },
   {
     "id": 95,
@@ -3578,7 +3672,7 @@
       "Learning"
     ],
     "description": "Patan Multiple Campus is a well-known Government institution located in Lalitpur.",
-    "website": "https://example.com/college95",
+    "website": "https://www.patanmultiple.edu.np",
     "contact": "+977-1-4181949",
     "facilities": [
       "Library",
@@ -3589,7 +3683,8 @@
     "established": 1973,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@patanmultiple.edu.np"
   },
   {
     "id": 96,
@@ -3617,7 +3712,7 @@
       "Learning"
     ],
     "description": "St. Xavier's College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college96",
+    "website": "https://sxc.edu.np",
     "contact": "+977-1-4887526",
     "facilities": [
       "Library",
@@ -3629,7 +3724,8 @@
     "established": 1966,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@sxc.edu.np"
   },
   {
     "id": 97,
@@ -3655,7 +3751,7 @@
       "Learning"
     ],
     "description": "Kathmandu University School of Medical Sciences is a well-known Private institution located in Dhulikhel.",
-    "website": "https://example.com/college97",
+    "website": "https://www.kathmanduuniversityschoolmedicalsciences.edu.np",
     "contact": "+977-1-4906750",
     "facilities": [
       "Library",
@@ -3666,7 +3762,8 @@
     "established": 2004,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@kathmanduuniversityschoolmedicalsciences.edu.np"
   },
   {
     "id": 98,
@@ -3692,7 +3789,7 @@
       "Learning"
     ],
     "description": "Chitwan Medical College is a well-known Private institution located in Chitwan.",
-    "website": "https://example.com/college98",
+    "website": "https://cec.tu.edu.np",
     "contact": "+977-1-4383748",
     "facilities": [
       "Library",
@@ -3703,7 +3800,8 @@
     "established": 1995,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@cec.tu.edu.np"
   },
   {
     "id": 99,
@@ -3728,7 +3826,7 @@
       "Learning"
     ],
     "description": "College of Medical Science is a well-known Private institution located in Chitwan.",
-    "website": "https://example.com/college99",
+    "website": "https://www.medicalscience.edu.np",
     "contact": "+977-1-4760253",
     "facilities": [
       "Library",
@@ -3740,7 +3838,8 @@
     "established": 1967,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@medicalscience.edu.np"
   },
   {
     "id": 100,
@@ -3764,7 +3863,7 @@
       "Learning"
     ],
     "description": "Nepalgunj Medical College is a well-known Private institution located in Nepalgunj.",
-    "website": "https://example.com/college100",
+    "website": "https://www.nepalgunjmedical.edu.np",
     "contact": "+977-1-4301728",
     "facilities": [
       "Library",
@@ -3776,7 +3875,8 @@
     "established": 1960,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nepalgunjmedical.edu.np"
   },
   {
     "id": 101,
@@ -3801,7 +3901,7 @@
       "Learning"
     ],
     "description": "Universal College of Medical Sciences is a well-known Private institution located in Bhairahawa.",
-    "website": "https://example.com/college101",
+    "website": "https://www.universalmedicalsciences.edu.np",
     "contact": "+977-1-4318793",
     "facilities": [
       "Library",
@@ -3813,7 +3913,8 @@
     "established": 1999,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@universalmedicalsciences.edu.np"
   },
   {
     "id": 102,
@@ -3838,7 +3939,7 @@
       "Learning"
     ],
     "description": "Kathmandu Medical College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college102",
+    "website": "https://www.kathmandumedical.edu.np",
     "contact": "+977-1-4173851",
     "facilities": [
       "Library",
@@ -3850,7 +3951,8 @@
     "established": 1982,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@kathmandumedical.edu.np"
   },
   {
     "id": 103,
@@ -3874,7 +3976,7 @@
       "Learning"
     ],
     "description": "Lumbini Medical College is a well-known Private institution located in Palpa.",
-    "website": "https://example.com/college103",
+    "website": "https://www.lumbinimedical.edu.np",
     "contact": "+977-1-4729226",
     "facilities": [
       "Library",
@@ -3886,7 +3988,8 @@
     "established": 2004,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@lumbinimedical.edu.np"
   },
   {
     "id": 104,
@@ -3910,7 +4013,7 @@
       "Learning"
     ],
     "description": "Pokhara Nursing Campus is a well-known Government institution located in Pokhara.",
-    "website": "https://example.com/college104",
+    "website": "https://www.pokharanursing.edu.np",
     "contact": "+977-1-4722624",
     "facilities": [
       "Library",
@@ -3922,7 +4025,8 @@
     "established": 1982,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@pokharanursing.edu.np"
   },
   {
     "id": 105,
@@ -3949,7 +4053,7 @@
       "Learning"
     ],
     "description": "Maharajgunj Medical Campus is a well-known Government institution located in Kathmandu.",
-    "website": "https://example.com/college105",
+    "website": "https://www.maharajgunjmedical.edu.np",
     "contact": "+977-1-4392084",
     "facilities": [
       "Library",
@@ -3961,7 +4065,8 @@
     "established": 1995,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@maharajgunjmedical.edu.np"
   },
   {
     "id": 106,
@@ -3987,7 +4092,7 @@
       "Learning"
     ],
     "description": "B.P. Koirala Institute of Health Sciences is a well-known Government institution located in Dharan.",
-    "website": "https://example.com/college106",
+    "website": "https://www.b.p.koiralainstitutehealthsciences.edu.np",
     "contact": "+977-1-4515925",
     "facilities": [
       "Library",
@@ -3998,7 +4103,8 @@
     "established": 1999,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@b.p.koiralainstitutehealthsciences.edu.np"
   },
   {
     "id": 107,
@@ -4023,7 +4129,7 @@
       "Learning"
     ],
     "description": "Manipal College of Medical Sciences is a well-known Private institution located in Pokhara.",
-    "website": "https://example.com/college107",
+    "website": "https://www.manipalmedicalsciences.edu.np",
     "contact": "+977-1-4508436",
     "facilities": [
       "Library",
@@ -4035,7 +4141,8 @@
     "established": 1979,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@manipalmedicalsciences.edu.np"
   },
   {
     "id": 108,
@@ -4060,7 +4167,7 @@
       "Learning"
     ],
     "description": "Nobel Medical College is a well-known Private institution located in Biratnagar.",
-    "website": "https://example.com/college108",
+    "website": "https://www.nobelmedical.edu.np",
     "contact": "+977-1-4443665",
     "facilities": [
       "Library",
@@ -4072,7 +4179,8 @@
     "established": 1996,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nobelmedical.edu.np"
   },
   {
     "id": 109,
@@ -4096,7 +4204,7 @@
       "Learning"
     ],
     "description": "Kist Medical College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college109",
+    "website": "https://kist.edu.np",
     "contact": "+977-1-4557036",
     "facilities": [
       "Library",
@@ -4108,7 +4216,8 @@
     "established": 1984,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@kist.edu.np"
   },
   {
     "id": 110,
@@ -4132,7 +4241,7 @@
       "Learning"
     ],
     "description": "Birat Medical College is a well-known Private institution located in Biratnagar.",
-    "website": "https://example.com/college110",
+    "website": "https://www.biratmedical.edu.np",
     "contact": "+977-1-4067713",
     "facilities": [
       "Library",
@@ -4144,7 +4253,8 @@
     "established": 1982,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@biratmedical.edu.np"
   },
   {
     "id": 111,
@@ -4172,7 +4282,7 @@
       "Learning"
     ],
     "description": "Tri-Chandra Multiple Campus is a well-known Government institution located in Kathmandu.",
-    "website": "https://example.com/college111",
+    "website": "https://www.tri-chandramultiple.edu.np",
     "contact": "+977-1-4026755",
     "facilities": [
       "Library",
@@ -4184,7 +4294,8 @@
     "established": 2009,
     "type": "Government",
     "admission_process": "Entrance Exam",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@tri-chandramultiple.edu.np"
   },
   {
     "id": 112,
@@ -4210,7 +4321,7 @@
       "Learning"
     ],
     "description": "Ratna Rajya Laxmi Campus is a well-known Government institution located in Kathmandu.",
-    "website": "https://example.com/college112",
+    "website": "https://www.ratnarajyalaxmi.edu.np",
     "contact": "+977-1-4899507",
     "facilities": [
       "Library",
@@ -4222,7 +4333,8 @@
     "established": 1969,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@ratnarajyalaxmi.edu.np"
   },
   {
     "id": 113,
@@ -4248,7 +4360,7 @@
       "Learning"
     ],
     "description": "Bhaktapur Multiple Campus is a well-known Government institution located in Bhaktapur.",
-    "website": "https://example.com/college113",
+    "website": "https://www.bhaktapurmultiple.edu.np",
     "contact": "+977-1-4663598",
     "facilities": [
       "Library",
@@ -4260,7 +4372,8 @@
     "established": 1966,
     "type": "Government",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@bhaktapurmultiple.edu.np"
   },
   {
     "id": 114,
@@ -4285,7 +4398,7 @@
       "Learning"
     ],
     "description": "Aberdeen International College is a well-known Private institution located in Lalitpur.",
-    "website": "https://example.com/college114",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4889682",
     "facilities": [
       "Library",
@@ -4297,7 +4410,8 @@
     "established": 1976,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   },
   {
     "id": 115,
@@ -4325,7 +4439,7 @@
       "Learning"
     ],
     "description": "GoldenGate International College is a well-known Private institution located in Kathmandu.",
-    "website": "https://example.com/college115",
+    "website": "https://nce.edu.np",
     "contact": "+977-1-4429080",
     "facilities": [
       "Library",
@@ -4337,6 +4451,7 @@
     "established": 1993,
     "type": "Private",
     "admission_process": "Merit-based",
-    "scholarship_available": true
+    "scholarship_available": true,
+    "email": "info@nce.edu.np"
   }
 ]

@@ -1,7 +1,4 @@
-"""
-Enhanced Backend REST API for College Recommendation System
-Includes comparison, statistics, and feedback features
-"""
+# Backend API for College Recommendation System
 
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -21,16 +18,12 @@ feedback_storage = []
 
 @app.route('/api/colleges', methods=['GET'])
 def get_all_colleges():
-    """
-    Get list of all colleges (for reference)
-    """
+    # Get list of all colleges
     return jsonify(recommender.colleges)
 
 @app.route('/api/colleges/<int:college_id>', methods=['GET'])
 def get_college_by_id(college_id):
-    """
-    Get a specific college by ID
-    """
+    # Get a specific college by ID
     college = next((c for c in recommender.colleges if c['id'] == college_id), None)
     if college:
         return jsonify(college)
@@ -38,10 +31,7 @@ def get_college_by_id(college_id):
 
 @app.route('/api/recommend', methods=['POST'])
 def get_recommendations():
-    """
-    Get college recommendations based on user profile
-    Expects JSON with: stream, gpa, preferred_program, interests, location, budget_range, career_goal
-    """
+    # Get college recommendations based on user profile
     try:
         user_profile = request.json
         
@@ -73,10 +63,7 @@ def get_recommendations():
 
 @app.route('/api/compare', methods=['POST'])
 def compare_colleges():
-    """
-    Compare multiple colleges side by side
-    Expects JSON with: college_ids (list of college IDs)
-    """
+    # Compare multiple colleges side by side
     try:
         data = request.json
         college_ids = data.get('college_ids', [])
@@ -97,9 +84,7 @@ def compare_colleges():
 
 @app.route('/api/statistics', methods=['GET'])
 def get_statistics():
-    """
-    Get statistics about the college dataset
-    """
+    # Get statistics about the college dataset
     try:
         stats = recommender.get_statistics()
         return jsonify(stats)
@@ -111,10 +96,7 @@ def get_statistics():
 
 @app.route('/api/feedback', methods=['POST'])
 def submit_feedback():
-    """
-    Submit feedback on a recommendation
-    Expects JSON with: college_id, rating (1-5), comment (optional)
-    """
+    # Submit feedback on a recommendation
     try:
         data = request.json
         feedback = {
@@ -139,9 +121,7 @@ def submit_feedback():
 
 @app.route('/api/feedback', methods=['GET'])
 def get_feedback():
-    """
-    Get all feedback (for admin/analytics)
-    """
+    # Get all feedback
     return jsonify({
         'feedback': feedback_storage,
         'count': len(feedback_storage)
@@ -149,113 +129,211 @@ def get_feedback():
 
 @app.route('/api/chatbot', methods=['POST'])
 def chatbot():
-    """
-    Enhanced rule-based chatbot to extract user information
-    """
+    # Enhanced chatbot with better NLP and conversational abilities
     try:
-        user_message = request.json.get('message', '').lower()
+        user_message = request.json.get('message', '').lower().strip()
         conversation_history = request.json.get('history', [])
+        current_data = request.json.get('current_data', {})
         
-        # Simple keyword matching to extract information
+        # Initialize extracted data with existing known data
+        # Filter out empty values
+        initial_data = {k: v for k, v in current_data.items() if v and str(v).strip()}
+        
         response = {
             'reply': '',
-            'extracted_data': {},
-            'suggestions': []
+            'extracted_data': initial_data,
+            'suggestions': [],
+            'confidence': 0.0
         }
         
-        # Check for stream
-        if any(word in user_message for word in ['science', 'management', 'commerce', 'humanities']):
-            if 'science' in user_message:
-                response['extracted_data']['stream'] = 'Science'
-            elif 'management' in user_message or 'commerce' in user_message:
-                response['extracted_data']['stream'] = 'Management'
-            elif 'humanities' in user_message:
-                response['extracted_data']['stream'] = 'Humanities'
+        # Greeting detection
+        # Small talk and greetings
+        if any(phrase in user_message for phrase in ['how are you', 'how r u', 'how are u', 'how do you do']):
+            response['reply'] = "I'm doing great, thank you for asking! 😊 I'm ready to help you find your dream college. Tell me about your academic background!"
+            response['suggestions'] = [
+                "I completed Science with 3.5 GPA",
+                "I want to study BBA in Kathmandu",
+                "Show me colleges with low budget"
+            ]
+            return jsonify(response)
+            
+        greetings = ['hello', 'hi', 'hey', 'greetings', 'good morning', 'good afternoon', 'namaste', 'namaskar']
+        if any(greeting in user_message.split() for greeting in greetings):
+            response['reply'] = "Hello! 👋 I'm your college recommendation assistant. I'm here to help you find the perfect college for your bachelor's degree in Nepal. Let's start by getting to know you better!"
+            response['suggestions'] = [
+                "I completed Science stream with 3.5 GPA",
+                "I want to study Computer Engineering",
+                "I prefer colleges in Kathmandu",
+                "My budget is medium range"
+            ]
+            return jsonify(response)
         
-        # Check for GPA
-        if 'gpa' in user_message or 'grade' in user_message or 'cgpa' in user_message:
-            words = user_message.split()
-            for i, word in enumerate(words):
+        # Help/confused detection - Only if no other info is extracted
+        help_keywords = ['help', 'confused', 'don\'t know', 'not sure']
+        if any(keyword in user_message for keyword in help_keywords) and not any(k in user_message for k in ['science', 'management', 'gpa', 'kathmandu', 'engineering']):
+            response['reply'] = "No worries! I'll guide you step by step. I need to know:\n\n1️⃣ Your +2 stream (Science/Management/Commerce/Humanities)\n2️⃣ Your GPA (out of 4.0)\n3️⃣ What program you want to study\n4️⃣ Your preferred location\n5️⃣ Your budget range (low/medium/high)\n\nJust tell me naturally, like: 'I did Science with 3.2 GPA, want to study BBA in Pokhara with low budget'"
+            response['suggestions'] = [
+                "I completed Science with 3.5 GPA",
+                "I want to study Engineering in Kathmandu"
+            ]
+            return jsonify(response)
+        
+        # Enhanced information extraction with context
+        confidence_score = 0.0
+        
+        # Stream detection with variations
+        stream_patterns = {
+            'Science': ['science', 'sci', 'pcm', 'physics', 'chemistry', 'biology'],
+            'Management': ['management', 'mgmt', 'business studies', 'accountancy'],
+            'Commerce': ['commerce', 'com'],
+            'Humanities': ['humanities', 'arts', 'social']
+        }
+        
+        for stream, keywords in stream_patterns.items():
+            if any(kw in user_message for kw in keywords):
+                response['extracted_data']['stream'] = stream
+                confidence_score += 0.2
+                break
+        
+        # GPA extraction with multiple formats
+        import re
+        gpa_patterns = [
+            r'gpa[:\s]+([0-4]\.?\d*)',
+            r'cgpa[:\s]+([0-4]\.?\d*)',
+            r'grade[:\s]+([0-4]\.?\d*)',
+            r'(\d\.?\d*)\s*gpa',
+            r'(\d\.?\d*)\s*cgpa',
+            r'scored?\s+(\d\.?\d*)',
+            r'got\s+(\d\.?\d*)'
+        ]
+        
+        for pattern in gpa_patterns:
+            match = re.search(pattern, user_message)
+            if match:
                 try:
-                    gpa = float(word)
+                    gpa = float(match.group(1))
                     if 0 <= gpa <= 4:
                         response['extracted_data']['gpa'] = gpa
+                        confidence_score += 0.2
                         break
                 except:
                     continue
         
-        # Check for location
-        locations = ['kathmandu', 'lalitpur', 'pokhara', 'biratnagar', 'butwal', 'any']
-        for loc in locations:
-            if loc in user_message:
-                response['extracted_data']['location'] = loc.capitalize()
+        # Location detection with more cities
+        locations = {
+            'Kathmandu': ['kathmandu', 'ktm', 'capital'],
+            'Lalitpur': ['lalitpur', 'patan'],
+            'Pokhara': ['pokhara'],
+            'Biratnagar': ['biratnagar'],
+            'Butwal': ['butwal'],
+            'Chitwan': ['chitwan', 'bharatpur'],
+            'Dharan': ['dharan'],
+            'Morang': ['morang']
+        }
+        
+        for city, keywords in locations.items():
+            if any(kw in user_message for kw in keywords):
+                response['extracted_data']['location'] = city
+                confidence_score += 0.15
                 break
         
-        # Check for budget
-        if any(word in user_message for word in ['low', 'cheap', 'affordable', 'budget']):
+        # Budget detection with more variations
+        if any(word in user_message for word in ['low', 'cheap', 'affordable', 'budget', 'economical', 'inexpensive']):
             response['extracted_data']['budget_range'] = 'low'
-        elif any(word in user_message for word in ['medium', 'moderate', 'average']):
+            confidence_score += 0.15
+        elif any(word in user_message for word in ['medium', 'moderate', 'average', 'mid', 'middle']):
             response['extracted_data']['budget_range'] = 'medium'
-        elif any(word in user_message for word in ['high', 'expensive', 'premium']):
+            confidence_score += 0.15
+        elif any(word in user_message for word in ['high', 'expensive', 'premium', 'costly']):
             response['extracted_data']['budget_range'] = 'high'
+            confidence_score += 0.15
         
-        # Check for program
-        programs = ['engineering', 'computer', 'bba', 'bbs', 'medicine', 'law', 'science', 'business']
-        for prog in programs:
-            if prog in user_message:
-                if prog == 'engineering':
-                    response['extracted_data']['preferred_program'] = 'Computer Engineering'
-                elif prog == 'computer':
-                    response['extracted_data']['preferred_program'] = 'Computer Science'
-                elif prog == 'bba' or prog == 'business':
-                    response['extracted_data']['preferred_program'] = 'BBA'
-                elif prog == 'medicine':
-                    response['extracted_data']['preferred_program'] = 'MBBS'
-                else:
-                    response['extracted_data']['preferred_program'] = prog.capitalize()
-                break
+        # Enhanced program detection
+        program_keywords = {
+            'Computer Engineering': [r'computer\s+engineering', r'\bce\b', r'comp\s+eng'],
+            'Computer Science': [r'computer\s+science', r'\bcs\b', r'bsc\s+cs', r'bsc\s+computer'],
+            'Civil Engineering': [r'civil\s+engineering', r'\bcivil\b', r'ce\s+civil'],
+            'Electrical Engineering': [r'electrical', r'\bee\b', r'electrical\s+engineering'],
+            'Mechanical Engineering': [r'mechanical', r'mechanical\s+engineering'],
+            'BBA': [r'\bbba\b', r'bachelor\s+of\s+business', r'business\s+administration'],
+            'BBS': [r'\bbbs\b', r'bachelor\s+of\s+business\s+studies'],
+            'MBBS': [r'\bmbbs\b', r'medicine', r'medical', r'doctor'],
+            'BCA': [r'\bbca\b', r'computer\s+application'],
+            'Law': [r'\blaw\b', r'\bllb\b', r'legal'],
+            'Architecture': [r'architecture', r'\barch\b'],
+            'Pharmacy': [r'pharmacy', r'b\.pharm']
+        }
         
-
+        for program, patterns in program_keywords.items():
+            for pattern in patterns:
+                if re.search(pattern, user_message):
+                    response['extracted_data']['preferred_program'] = program
+                    confidence_score += 0.3
+                    break
         
-        # Generate contextual reply
+        # Interests and career goals extraction
+        if any(word in user_message for word in ['interested in', 'like', 'enjoy', 'passion']):
+            interests_match = re.search(r'(?:interested in|like|enjoy|passion for)\s+(\w+(?:\s+\w+)*)', user_message)
+            if interests_match:
+                response['extracted_data']['interests'] = interests_match.group(1).strip()
+        
+        if any(word in user_message for word in ['want to be', 'become', 'career', 'goal']):
+            career_match = re.search(r'(?:want to be|become|career as|goal.*?)\s+(?:a\s+)?(\w+(?:\s+\w+)*)', user_message)
+            if career_match:
+                response['extracted_data']['career_goals'] = career_match.group(1).strip()
+        
+        response['confidence'] = min(confidence_score, 1.0)
+        
+        # Generate intelligent contextual reply
         if not response['extracted_data']:
-            response['reply'] = "I can help you find colleges! Please tell me about your +2 stream, GPA, preferred program, location, and budget. For example: 'I completed Science with 3.5 GPA, want to study Computer Engineering in Kathmandu with medium budget.'"
+            response['reply'] = "I'd love to help you find the perfect college! 🎓 Could you tell me a bit about yourself? For example:\n\n'I completed Science with 3.5 GPA and want to study Computer Engineering in Kathmandu with a medium budget.'\n\nJust describe your situation naturally, and I'll understand!"
             response['suggestions'] = [
-                "What's your +2 stream?",
-                "What's your GPA?",
-                "Which program interests you?",
-                "Where do you want to study?"
+                "I did Science with 3.5 GPA",
+                "I want to study Engineering",
+                "I prefer Kathmandu area",
+                "My budget is low to medium"
             ]
         else:
-            extracted = response['extracted_data']
-            reply_parts = ["Great! I noted:"]
-            if 'stream' in extracted:
-                reply_parts.append(f"Stream: {extracted['stream']}")
-            if 'gpa' in extracted:
-                reply_parts.append(f"GPA: {extracted['gpa']}")
-            if 'location' in extracted:
-                reply_parts.append(f"Location: {extracted['location']}")
-            if 'preferred_program' in extracted:
-                reply_parts.append(f"Program: {extracted['preferred_program']}")
-            if 'budget_range' in extracted:
-                reply_parts.append(f"Budget: {extracted['budget_range']}")
+            reply_parts = ["Great! I've noted the following:"]
+            emojis = {'stream': '📚', 'gpa': '📊', 'preferred_program': '🎯', 'location': '📍', 'budget_range': '💰'}
+            
+            for key, value in response['extracted_data'].items():
+                emoji = emojis.get(key, '✓')
+                friendly_key = key.replace('_', ' ').title()
+                reply_parts.append(f"{emoji} {friendly_key}: {value}")
+            
+            # Check what's missing
+            required_fields = {
+                'stream': 'your +2 stream (Science/Management/Commerce/Humanities)',
+                'gpa': 'your GPA (out of 4.0)',
+                'preferred_program': 'the program you want to study',
+                'location': 'your preferred location'
+            }
             
             missing = []
-            if 'stream' not in extracted:
-                missing.append("your +2 stream")
-            if 'gpa' not in extracted:
-                missing.append("your GPA")
-            if 'preferred_program' not in extracted:
-                missing.append("preferred program")
-            if 'location' not in extracted:
-                missing.append("location preference")
+            for field, description in required_fields.items():
+                if field not in response['extracted_data']:
+                    missing.append(description)
             
             if missing:
-                reply_parts.append(f"Please also tell me about {', '.join(missing)}.")
+                reply_parts.append(f"\n\nTo give you the best recommendations, I still need to know:")
+                for i, item in enumerate(missing, 1):
+                    reply_parts.append(f"{i}. {item}")
+                
+                response['suggestions'] = [
+                    f"My {missing[0].split()[1] if len(missing[0].split()) > 1 else missing[0]} is...",
+                    "Can you suggest some options?",
+                    "I'm not sure about this"
+                ]
             else:
-                reply_parts.append("You can now fill the form and get recommendations!")
+                reply_parts.append("\n\n✨ Perfect! I have all the information I need. You can now click 'Get Recommendations' to see colleges that match your profile!")
+                response['suggestions'] = [
+                    "Show me the recommendations",
+                    "Can you explain how matching works?",
+                    "What if I want to change something?"
+                ]
             
-            response['reply'] = " ".join(reply_parts)
+            response['reply'] = "\n".join(reply_parts)
         
         return jsonify(response)
     
@@ -265,11 +343,10 @@ def chatbot():
             'message': str(e)
         }), 500
 
+
 @app.route('/api/health', methods=['GET'])
 def health_check():
-    """
-    Health check endpoint
-    """
+    # Health check endpoint
     return jsonify({
         'status': 'ok',
         'message': 'College Recommendation API is running',
